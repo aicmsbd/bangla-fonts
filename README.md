@@ -1,18 +1,46 @@
 # বাঙলা (Bangla) — Universal Web Font System
 
-**120 Scripts · 341 WOFF2 Files · Every Language Online**
+**120 Scripts · 341 WOFF2 · Every Human Writing System Online**
 
-The only web font that covers virtually every human writing system in a single `font-family`.  
-Browser lazy-loads only the script needed for your page via CSS `unicode-range`.
+The only web font covering virtually every script in one `font-family`.  
+Browser fetches **only the script your page actually uses** via CSS `unicode-range`.
 
 ---
 
-## Quick Start
+## Usage — 3 options (fastest → easiest)
+
+### Option 1 — Load only what you need (fastest)
+
+Pick the scripts your site uses. Each is a tiny separate file:
 
 ```html
-<!-- Drop in <head> — covers all 120 scripts automatically -->
+<!-- Bengali website -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+
+<!-- Arabic + English -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-arabic.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+
+<!-- Hindi website -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-devanagari.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+```
+
+### Option 2 — Load all 120 scripts (easiest, browser still lazy-loads)
+
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/bangla-universal.css">
 ```
+
+### Option 3 — CSS `@import` (development)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali.css");
+@import url("https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-arabic.css");
+```
+
+Then in your CSS:
 
 ```css
 body {
@@ -20,208 +48,232 @@ body {
 }
 ```
 
-That's it. Write Bengali, Arabic, Chinese, Devanagari, Amharic, Cherokee, Mongolian — the browser fetches only what the page needs.
+---
+
+## Why separate CSS files?
+
+| Approach | CSS loaded | Font files downloaded |
+|----------|-----------|----------------------|
+| `bangla-universal.css` | 126 KB | Only scripts present on page |
+| `css/bangla-bengali.css` only | **2 KB** | Only Bengali weights used |
+| `css/bangla-arabic.css` only | **2 KB** | Only Arabic weights used |
+
+The `unicode-range` in every `@font-face` means the browser **never downloads a font file** unless a character from that range appears on the page. But loading fewer CSS files = less CSS parsing, faster first paint.
 
 ---
 
-## What's Covered
+## All Per-Script CDN Links
 
-| Region | Scripts |
-|--------|---------|
-| **South Asia** | Bengali, Devanagari, Tamil, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, Odia, Sinhala, Meetei Mayek, Ol Chiki, Chakma, Syloti Nagri, Limbu, Lepcha, Newa, Kaithi, Tirhuta, Sharada, Khojki, Khudawadi, Takri, Multani, Modi, Masaram Gondi, Gunjala Gondi, Mahajani, Sora Sompeng, Warang Citi, Mro, Wancho |
-| **Southeast Asia** | Thai, Lao, Myanmar, Khmer, Tai Le, New Tai Lue, Tai Tham, Tai Viet, Cham, Sundanese, Batak, Javanese, Buginese, Balinese, Rejang, Saurashtra, Kayah Li, Pahawh Hmong, Pau Cin Hau |
-| **East Asia** | CJK (Chinese/Japanese), Tibetan, Mongolian, Lisu, Miao, Yi, Nushu, Zanabazar Square, Soyombo, Bhaiksuki, Marchen, Siddham |
-| **Philippines** | Tagalog (Baybayin), Hanunoo, Buhid, Tagbanwa |
-| **Middle East** | Arabic, Hebrew, Syriac, Thaana (Maldivian), N'Ko, Samaritan, Mandaic, Hanifi Rohingya |
-| **Africa** | Ethiopic, Bamum, Tifinagh, Vai, Mende Kikakui, Adlam, Osmanya |
-| **Europe** | Latin, Latin Extended, Greek, Cyrillic, Armenian, Georgian, Glagolitic, Coptic, Gothic, Elbasan, Ogham, Runic |
-| **Americas** | Canadian Aboriginal Syllabics, Cherokee, Deseret, Osage |
-| **Historical** | Phags-Pa, Imperial Aramaic, Nabataean, Phoenician, Old South Arabian, Old North Arabian, Old Hungarian, Old Italic, Old Turkic, Old Uyghur, Sogdian, Old Sogdian, Inscriptional Pahlavi, Inscriptional Parthian, Psalter Pahlavi, Manichaean, Hatran, Palmyrene, Ugaritic, Linear B, Lycian, Lydian, Shavian, Duployan |
-| **India — Historical** | Bhaiksuki, Marchen, Siddham, Zanabazar, Soyombo |
+Base URL: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/`
 
----
+### South Asia
 
-## CDN URL Format
+| Script | Language | CSS Link | Weights |
+|--------|----------|----------|---------|
+| Bengali | বাংলা | [bangla-bengali.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali.css) | 100–900 |
+| Devanagari | हिन्दी · मराठी · नेपाली | [bangla-devanagari.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-devanagari.css) | 100–900 |
+| Tamil | தமிழ் | [bangla-tamil.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tamil.css) | 100–900 |
+| Telugu | తెలుగు | [bangla-telugu.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-telugu.css) | 100–900 |
+| Kannada | ಕನ್ನಡ | [bangla-kannada.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kannada.css) | 100–900 |
+| Malayalam | മലയാളം | [bangla-malayalam.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-malayalam.css) | 100–900 |
+| Gujarati | ગુજરાતી | [bangla-gujarati.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gujarati.css) | 100–900 |
+| Gurmukhi | ਪੰਜਾਬੀ | [bangla-gurmukhi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gurmukhi.css) | 100–900 |
+| Odia | ଓଡ଼ିଆ | [bangla-odia.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-odia.css) | 400 700 |
+| Sinhala | සිංහල | [bangla-sinhala.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sinhala.css) | 100–900 |
+| Meetei Mayek | Manipuri | [bangla-meetei-mayek.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-meetei-mayek.css) | 100–900 |
+| Ol Chiki | Santali | [bangla-ol-chiki.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-ol-chiki.css) | 400 500 600 700 |
+| Chakma | 𑄌𑄋𑄴𑄟 | [bangla-chakma.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-chakma.css) | 400 |
+| Syloti Nagri | Sylheti | [bangla-syloti-nagri.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-syloti-nagri.css) | 400 |
+| Limbu | Nepal/Sikkim | [bangla-limbu.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-limbu.css) | 400 |
+| Lepcha | Sikkim | [bangla-lepcha.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lepcha.css) | 400 |
+| Newa | Nepal Lipi | [bangla-newa.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-newa.css) | 400 |
+| Saurashtra | India | [bangla-saurashtra.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-saurashtra.css) | 400 |
+| Kaithi | India | [bangla-kaithi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kaithi.css) | 400 |
+| Tirhuta | Maithili | [bangla-tirhuta.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tirhuta.css) | 400 |
+| Sharada | Kashmir | [bangla-sharada.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sharada.css) | 400 |
+| Khojki | Sindh | [bangla-khojki.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-khojki.css) | 400 |
+| Khudawadi | Sindhi | [bangla-khudawadi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-khudawadi.css) | 400 |
+| Takri | North India | [bangla-takri.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-takri.css) | 400 |
+| Multani | Pakistan | [bangla-multani.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-multani.css) | 400 |
+| Modi | Marathi hist. | [bangla-modi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-modi.css) | 400 |
+| Masaram Gondi | India | [bangla-masaram-gondi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-masaram-gondi.css) | 400 |
+| Gunjala Gondi | India | [bangla-gunjala-gondi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gunjala-gondi.css) | 400 700 |
+| Mahajani | India | [bangla-mahajani.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-mahajani.css) | 400 |
+| Sora Sompeng | India | [bangla-sora-sompeng.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sora-sompeng.css) | 400 700 |
+| Warang Citi | Ho/India | [bangla-warang-citi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-warang-citi.css) | 400 |
+| Mro | Bangladesh | [bangla-mro.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-mro.css) | 400 |
+| Wancho | Arunachal | [bangla-wancho.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-wancho.css) | 400 |
 
-```
-https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-{script}-{weight}.woff2
-```
+### Southeast Asia
 
-Examples:
-```
-Bangla-bengali-400.woff2      ← Bengali Regular
-Bangla-arabic-700.woff2       ← Arabic Bold
-Bangla-devanagari-100.woff2   ← Devanagari Thin
-Bangla-cherokee-900.woff2     ← Cherokee Black
-Bangla-ethiopic-400.woff2     ← Ethiopic Regular
-```
+| Script | Language | CSS Link | Weights |
+|--------|----------|----------|---------|
+| Thai | ภาษาไทย | [bangla-thai.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-thai.css) | 100–900 |
+| Lao | ພາສາລາວ | [bangla-lao.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lao.css) | 100–900 |
+| Myanmar | မြန်မာ | [bangla-myanmar.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-myanmar.css) | 300 400 700 900 |
+| Khmer | ភាសាខ្មែរ | [bangla-khmer.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-khmer.css) | 100–900 |
+| Tai Tham | Lanna | [bangla-tai-tham.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tai-tham.css) | 400 700 |
+| Tai Le | SE Asia | [bangla-tai-le.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tai-le.css) | 400 |
+| New Tai Lue | SE Asia | [bangla-new-tai-lue.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-new-tai-lue.css) | 400 |
+| Tai Viet | Vietnam | [bangla-tai-viet.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tai-viet.css) | 400 |
+| Cham | Vietnam/Cambodia | [bangla-cham.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cham.css) | 400 700 |
+| Kayah Li | Myanmar/Thailand | [bangla-kayah-li.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kayah-li.css) | 400 700 |
+| Sundanese | Indonesia | [bangla-sundanese.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sundanese.css) | 400 500 600 700 |
+| Batak | Indonesia | [bangla-batak.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-batak.css) | 400 |
+| Javanese | Indonesia | [bangla-javanese.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-javanese.css) | 400 |
+| Buginese | Indonesia | [bangla-buginese.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-buginese.css) | 400 |
+| Rejang | Indonesia | [bangla-rejang.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-rejang.css) | 400 |
+| Pahawh Hmong | SE Asia | [bangla-pahawh-hmong.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-pahawh-hmong.css) | 400 |
+| Pau Cin Hau | Myanmar | [bangla-pau-cin-hau.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-pau-cin-hau.css) | 400 |
 
----
+### Philippines
 
-## All Scripts — CDN Links
+| Script | | CSS Link |
+|--------|--|----------|
+| Tagalog/Baybayin | | [bangla-tagalog.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tagalog.css) |
+| Hanunoo | | [bangla-hanunoo.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-hanunoo.css) |
+| Buhid | | [bangla-buhid.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-buhid.css) |
+| Tagbanwa | | [bangla-tagbanwa.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tagbanwa.css) |
 
-Base: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/`
+### East Asia
 
-### Core Scripts (9 weights: 100–900)
+| Script | Language | CSS Link | Weights |
+|--------|----------|----------|---------|
+| CJK | Chinese · Japanese | [bangla-cjk.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cjk.css) | 100 300 400 500 700 900 |
+| Tibetan | བོད་སྐད། | [bangla-tibetan.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tibetan.css) | 400 700 |
+| Mongolian | Монгол | [bangla-mongolian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-mongolian.css) | 400 |
+| Yi | ꆈꌠ China | [bangla-yi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-yi.css) | 400 |
+| Lisu | China/Myanmar | [bangla-lisu.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lisu.css) | 400 700 |
+| Miao/Pollard | China | [bangla-miao.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-miao.css) | 400 |
+| Nushu | China (women's) | [bangla-nushu.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-nushu.css) | 400 |
+| Zanabazar | Mongolia | [bangla-zanabazar.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-zanabazar.css) | 400 |
+| Soyombo | Mongolia | [bangla-soyombo.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-soyombo.css) | 400 |
+| Phags-Pa | Mongol Empire | [bangla-phags-pa.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-phags-pa.css) | 400 |
+| Bhaiksuki | Buddhist | [bangla-bhaiksuki.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bhaiksuki.css) | 400 |
+| Marchen | Tibet | [bangla-marchen.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-marchen.css) | 400 |
+| Siddham | Buddhist mantra | [bangla-siddham.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-siddham.css) | 400 |
 
-| Script | Unicode | Weights available |
-|--------|---------|-------------------|
-| [Bengali](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-bengali-400.woff2) | U+0980–09FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Latin](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-latin-400.woff2) | U+0000–00FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Latin Extended](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-latin-ext-400.woff2) | U+0100–024F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Arabic](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-arabic-400.woff2) | U+0600–06FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [CJK](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-cjk-400.woff2) | U+4E00–9FFF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Cyrillic](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-cyrillic-400.woff2) | U+0400–04FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Devanagari](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-devanagari-400.woff2) | U+0900–097F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Tamil](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tamil-400.woff2) | U+0B80–0BFF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Telugu](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-telugu-400.woff2) | U+0C00–0C7F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Kannada](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-kannada-400.woff2) | U+0C80–0CFF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Malayalam](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-malayalam-400.woff2) | U+0D00–0D7F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Gujarati](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-gujarati-400.woff2) | U+0A80–0AFF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Gurmukhi](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-gurmukhi-400.woff2) | U+0A00–0A7F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Sinhala](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-sinhala-400.woff2) | U+0D80–0DFF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Thai](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-thai-400.woff2) | U+0E00–0E7F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Lao](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-lao-400.woff2) | U+0E80–0EFF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Myanmar](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-myanmar-400.woff2) | U+1000–109F | 300 **400 700** 900 |
-| [Khmer](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-khmer-400.woff2) | U+1780–17FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Greek](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-greek-400.woff2) | U+0370–03FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Armenian](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-armenian-400.woff2) | U+0530–058F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Georgian](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-georgian-400.woff2) | U+10A0–10FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Ethiopic](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-ethiopic-400.woff2) | U+1200–137F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Tibetan](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tibetan-400.woff2) | U+0F00–0FFF | **400 700** |
-| [Hebrew](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-hebrew-400.woff2) | U+0590–05FF | 100 300 **400 700** 900 |
-| [Odia](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-odia-400.woff2) | U+0B00–0B7F | **400 700** |
-| [Thaana](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-thaana-400.woff2) | U+0780–07BF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Meetei Mayek](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-meetei-mayek-400.woff2) | U+AAE0–ABED | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Ol Chiki](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-ol-chiki-400.woff2) | U+1C50–1C7F | **400** 500 600 **700** |
-| [Canadian Aboriginal](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-canadian-aboriginal-400.woff2) | U+1400–167F | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Cherokee](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-cherokee-400.woff2) | U+13A0–13FF | 100 200 300 **400** 500 600 **700** 800 900 |
-| [Adlam](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-adlam-400.woff2) | U+1E900–1E95F | **400 700** |
+### Middle East / Africa
 
-### Additional Scripts (Regular + Bold)
+| Script | Language | CSS Link | Weights |
+|--------|----------|----------|---------|
+| Arabic | العربية | [bangla-arabic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-arabic.css) | 100–900 |
+| Hebrew | עברית | [bangla-hebrew.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-hebrew.css) | 100 300 400 700 900 |
+| Ethiopic | አማርኛ · Tigrinya | [bangla-ethiopic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-ethiopic.css) | 100–900 |
+| Thaana | ދިވެހި Maldivian | [bangla-thaana.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-thaana.css) | 100–900 |
+| Syriac | ܣܘܪܝܝܐ | [bangla-syriac.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-syriac.css) | 400 900 |
+| N'Ko | ߒߞߏ West Africa | [bangla-nko.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-nko.css) | 400 |
+| Adlam | Fulani West Africa | [bangla-adlam.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-adlam.css) | 400 700 |
+| Bamum | Cameroon | [bangla-bamum.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bamum.css) | 400 |
+| Tifinagh | Amazigh/Berber | [bangla-tifinagh.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tifinagh.css) | 400 |
+| Vai | Liberia | [bangla-vai.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-vai.css) | 400 |
+| Mende Kikakui | Sierra Leone | [bangla-mende-kikakui.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-mende-kikakui.css) | 400 |
+| Osmanya | Somali | [bangla-osmanya.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-osmanya.css) | 400 |
+| Hanifi Rohingya | Rohingya | [bangla-hanifi-rohingya.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-hanifi-rohingya.css) | 400 700 |
+| Samaritan | Palestine | [bangla-samaritan.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-samaritan.css) | 400 |
+| Mandaic | Iraq/Iran | [bangla-mandaic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-mandaic.css) | 400 |
 
-| Script | Unicode | CDN (Regular) |
-|--------|---------|---------------|
-| Mongolian | U+1800–18AF | [Bangla-mongolian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-mongolian-400.woff2) |
-| Yi | U+A000–A48F | [Bangla-yi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-yi-400.woff2) |
-| Lisu | U+A4D0–A4FF | [Bangla-lisu-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-lisu-400.woff2) |
-| Miao | U+16F00–16F9F | [Bangla-miao-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-miao-400.woff2) |
-| Tai Le | U+1950–197F | [Bangla-tai-le-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tai-le-400.woff2) |
-| New Tai Lue | U+1980–19DF | [Bangla-new-tai-lue-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-new-tai-lue-400.woff2) |
-| Tai Tham | U+1A20–1AAF | [Bangla-tai-tham-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tai-tham-400.woff2) |
-| Tai Viet | U+AA80–AADF | [Bangla-tai-viet-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tai-viet-400.woff2) |
-| Cham | U+AA00–AA5F | [Bangla-cham-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-cham-400.woff2) |
-| Kayah Li | U+A900–A92F | [Bangla-kayah-li-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-kayah-li-400.woff2) |
-| Sundanese | U+1B80–1BBF | [Bangla-sundanese-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-sundanese-400.woff2) |
-| Batak | U+1BC0–1BFF | [Bangla-batak-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-batak-400.woff2) |
-| Javanese | U+A980–A9DF | [Bangla-javanese-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-javanese-400.woff2) |
-| Buginese | U+1A00–1A1F | [Bangla-buginese-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-buginese-400.woff2) |
-| Rejang | U+A930–A95F | [Bangla-rejang-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-rejang-400.woff2) |
-| Chakma | U+11100–1114F | [Bangla-chakma-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-chakma-400.woff2) |
-| Syloti Nagri | U+A800–A82F | [Bangla-syloti-nagri-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-syloti-nagri-400.woff2) |
-| Limbu | U+1900–194F | [Bangla-limbu-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-limbu-400.woff2) |
-| Lepcha | U+1C00–1C4F | [Bangla-lepcha-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-lepcha-400.woff2) |
-| Newa | U+11400–1147F | [Bangla-newa-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-newa-400.woff2) |
-| Kaithi | U+11080–110CF | [Bangla-kaithi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-kaithi-400.woff2) |
-| Tirhuta | U+11480–114DF | [Bangla-tirhuta-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tirhuta-400.woff2) |
-| Sharada | U+11180–111DF | [Bangla-sharada-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-sharada-400.woff2) |
-| Khojki | U+11200–1124F | [Bangla-khojki-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-khojki-400.woff2) |
-| Khudawadi | U+112B0–112FF | [Bangla-khudawadi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-khudawadi-400.woff2) |
-| Takri | U+11680–116CF | [Bangla-takri-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-takri-400.woff2) |
-| Multani | U+11280–112AF | [Bangla-multani-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-multani-400.woff2) |
-| Modi | U+11600–1165F | [Bangla-modi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-modi-400.woff2) |
-| Masaram Gondi | U+11D00–11D5F | [Bangla-masaram-gondi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-masaram-gondi-400.woff2) |
-| Gunjala Gondi | U+11D60–11DAF | [Bangla-gunjala-gondi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-gunjala-gondi-400.woff2) |
-| Mro | U+16A40–16A6F | [Bangla-mro-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-mro-400.woff2) |
-| Wancho | U+1E2C0–1E2FF | [Bangla-wancho-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-wancho-400.woff2) |
-| Sora Sompeng | U+110D0–110FF | [Bangla-sora-sompeng-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-sora-sompeng-400.woff2) |
-| Warang Citi | U+118A0–118FF | [Bangla-warang-citi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-warang-citi-400.woff2) |
-| Pahawh Hmong | U+16B00–16B8F | [Bangla-pahawh-hmong-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-pahawh-hmong-400.woff2) |
-| Mahajani | U+11150–1117F | [Bangla-mahajani-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-mahajani-400.woff2) |
-| Saurashtra | U+A880–A8DF | [Bangla-saurashtra-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-saurashtra-400.woff2) |
-| Tagalog | U+1700–171F | [Bangla-tagalog-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tagalog-400.woff2) |
-| Hanunoo | U+1720–173F | [Bangla-hanunoo-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-hanunoo-400.woff2) |
-| Buhid | U+1740–175F | [Bangla-buhid-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-buhid-400.woff2) |
-| Tagbanwa | U+1760–177F | [Bangla-tagbanwa-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tagbanwa-400.woff2) |
-| N'Ko | U+07C0–07FF | [Bangla-nko-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-nko-400.woff2) |
-| Syriac | U+0700–074F | [Bangla-syriac-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-syriac-400.woff2) |
-| Bamum | U+A6A0–A6FF | [Bangla-bamum-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-bamum-400.woff2) |
-| Tifinagh | U+2D30–2D7F | [Bangla-tifinagh-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-tifinagh-400.woff2) |
-| Vai | U+A500–A63F | [Bangla-vai-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-vai-400.woff2) |
-| Mende Kikakui | U+1E800–1E8DF | [Bangla-mende-kikakui-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-mende-kikakui-400.woff2) |
-| Hanifi Rohingya | U+10D00–10D3F | [Bangla-hanifi-rohingya-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-hanifi-rohingya-400.woff2) |
-| Samaritan | U+0800–083F | [Bangla-samaritan-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-samaritan-400.woff2) |
-| Mandaic | U+0840–085F | [Bangla-mandaic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-mandaic-400.woff2) |
-| Osmanya | U+10480–104AF | [Bangla-osmanya-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-osmanya-400.woff2) |
-| Deseret | U+10400–1044F | [Bangla-deseret-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-deseret-400.woff2) |
-| Osage | U+104B0–104D3 | [Bangla-osage-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-osage-400.woff2) |
-| Glagolitic | U+2C00–2C5F | [Bangla-glagolitic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-glagolitic-400.woff2) |
-| Coptic | U+2C80–2CFF | [Bangla-coptic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-coptic-400.woff2) |
-| Gothic | U+10330–1034F | [Bangla-gothic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-gothic-400.woff2) |
-| Elbasan | U+10500–1052F | [Bangla-elbasan-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-elbasan-400.woff2) |
-| Shavian | U+10450–1047F | [Bangla-shavian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-shavian-400.woff2) |
-| Ogham | U+1680–169F | [Bangla-ogham-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-ogham-400.woff2) |
-| Runic | U+16A0–16FF | [Bangla-runic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-runic-400.woff2) |
-| Zanabazar Square | U+11A00–11A4F | [Bangla-zanabazar-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-zanabazar-400.woff2) |
-| Soyombo | U+11A50–11AAF | [Bangla-soyombo-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-soyombo-400.woff2) |
-| Phags-Pa | U+A840–A87F | [Bangla-phags-pa-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-phags-pa-400.woff2) |
-| Imperial Aramaic | U+10840–1085F | [Bangla-imperial-aramaic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-imperial-aramaic-400.woff2) |
-| Nabataean | U+10880–108AF | [Bangla-nabataean-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-nabataean-400.woff2) |
-| Phoenician | U+10900–1091F | [Bangla-phoenician-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-phoenician-400.woff2) |
-| Old South Arabian | U+10A60–10A9F | [Bangla-old-south-arabian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-old-south-arabian-400.woff2) |
-| Old North Arabian | U+10A80–10A9F | [Bangla-old-north-arabian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-old-north-arabian-400.woff2) |
-| Old Hungarian | U+10C80–10CFF | [Bangla-old-hungarian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-old-hungarian-400.woff2) |
-| Old Italic | U+10300–1032F | [Bangla-old-italic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-old-italic-400.woff2) |
-| Old Turkic | U+10C00–10C4F | [Bangla-old-turkic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-old-turkic-400.woff2) |
-| Sogdian | U+10F30–10F6F | [Bangla-sogdian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-sogdian-400.woff2) |
-| Old Sogdian | U+10F00–10F2F | [Bangla-old-sogdian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-old-sogdian-400.woff2) |
-| Inscriptional Pahlavi | U+10B60–10B7F | [Bangla-inscriptional-pahlavi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-inscriptional-pahlavi-400.woff2) |
-| Inscriptional Parthian | U+10B40–10B5F | [Bangla-inscriptional-parthian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-inscriptional-parthian-400.woff2) |
-| Psalter Pahlavi | U+10B80–10BAF | [Bangla-psalter-pahlavi-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-psalter-pahlavi-400.woff2) |
-| Manichaean | U+10AC0–10AFF | [Bangla-manichaean-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-manichaean-400.woff2) |
-| Hatran | U+108E0–108FF | [Bangla-hatran-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-hatran-400.woff2) |
-| Palmyrene | U+10860–1087F | [Bangla-palmyrene-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-palmyrene-400.woff2) |
-| Ugaritic | U+10380–1039F | [Bangla-ugaritic-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-ugaritic-400.woff2) |
-| Linear B | U+10000–1003A | [Bangla-linear-b-syllabary-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-linear-b-syllabary-400.woff2) |
-| Lycian | U+10280–1029F | [Bangla-lycian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-lycian-400.woff2) |
-| Lydian | U+10920–1093F | [Bangla-lydian-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-lydian-400.woff2) |
-| Nushu | U+1B170–1B2FF | [Bangla-nushu-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-nushu-400.woff2) |
-| Bhaiksuki | U+11C00–11C6F | [Bangla-bhaiksuki-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-bhaiksuki-400.woff2) |
-| Marchen | U+11C70–11CBF | [Bangla-marchen-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-marchen-400.woff2) |
-| Duployan | U+1BC00–1BC9F | [Bangla-duployan-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-duployan-400.woff2) |
-| Siddham | U+11580–115FF | [Bangla-siddham-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-siddham-400.woff2) |
-| Pau Cin Hau | U+11AC0–11AFF | [Bangla-pau-cin-hau-400.woff2](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-pau-cin-hau-400.woff2) |
+### Europe
+
+| Script | Language | CSS Link | Weights |
+|--------|----------|----------|---------|
+| Latin | English · All European | [bangla-latin.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css) | 100–900 |
+| Latin Extended | Diacritics | [bangla-latin-ext.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin-ext.css) | 100–900 |
+| Greek | Ελληνικά | [bangla-greek.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-greek.css) | 100–900 |
+| Cyrillic | Русский · etc | [bangla-cyrillic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cyrillic.css) | 100–900 |
+| Armenian | Հայերեն | [bangla-armenian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-armenian.css) | 100–900 |
+| Georgian | ქართული | [bangla-georgian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-georgian.css) | 100–900 |
+| Glagolitic | Old Slavic | [bangla-glagolitic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-glagolitic.css) | 400 |
+| Coptic | Egypt liturgy | [bangla-coptic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-coptic.css) | 400 |
+| Gothic | Germanic hist. | [bangla-gothic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gothic.css) | 400 |
+| Elbasan | Albania hist. | [bangla-elbasan.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-elbasan.css) | 400 |
+| Shavian | Shaw Alphabet | [bangla-shavian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-shavian.css) | 400 |
+| Ogham | Ancient Irish | [bangla-ogham.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-ogham.css) | 400 |
+| Runic | Germanic | [bangla-runic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-runic.css) | 400 |
+
+### Americas
+
+| Script | | CSS Link | Weights |
+|--------|--|----------|---------|
+| Canadian Aboriginal Syllabics | | [bangla-canadian-aboriginal.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-canadian-aboriginal.css) | 100–900 |
+| Cherokee | ᎠᏍᎦᏯ | [bangla-cherokee.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cherokee.css) | 100–900 |
+| Deseret | Utah/USA hist. | [bangla-deseret.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-deseret.css) | 400 |
+| Osage | USA | [bangla-osage.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-osage.css) | 400 |
+
+### Historical & Ancient
+
+| Script | | CSS Link |
+|--------|--|----------|
+| Imperial Aramaic | [bangla-imperial-aramaic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-imperial-aramaic.css) | |
+| Nabataean | [bangla-nabataean.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-nabataean.css) | |
+| Phoenician | [bangla-phoenician.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-phoenician.css) | |
+| Old South Arabian | [bangla-old-south-arabian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-south-arabian.css) | |
+| Old North Arabian | [bangla-old-north-arabian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-north-arabian.css) | |
+| Old Hungarian (Rovas) | [bangla-old-hungarian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-hungarian.css) | |
+| Old Italic | [bangla-old-italic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-italic.css) | |
+| Old Turkic (Orkhon) | [bangla-old-turkic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-turkic.css) | |
+| Sogdian | [bangla-sogdian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sogdian.css) | |
+| Old Sogdian | [bangla-old-sogdian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-sogdian.css) | |
+| Inscriptional Pahlavi | [bangla-inscriptional-pahlavi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-inscriptional-pahlavi.css) | |
+| Inscriptional Parthian | [bangla-inscriptional-parthian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-inscriptional-parthian.css) | |
+| Psalter Pahlavi | [bangla-psalter-pahlavi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-psalter-pahlavi.css) | |
+| Manichaean | [bangla-manichaean.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-manichaean.css) | |
+| Hatran | [bangla-hatran.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-hatran.css) | |
+| Palmyrene | [bangla-palmyrene.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-palmyrene.css) | |
+| Ugaritic | [bangla-ugaritic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-ugaritic.css) | |
+| Linear B Syllabary | [bangla-linear-b-syllabary.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-linear-b-syllabary.css) | |
+| Lycian | [bangla-lycian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lycian.css) | |
+| Lydian | [bangla-lydian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lydian.css) | |
+| Duployan (shorthand) | [bangla-duployan.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-duployan.css) | |
 
 ---
 
-## Manual @font-face (pick your own scripts)
+## Common Combinations
 
-```css
-/* Bengali only */
-@font-face {
-  font-family: "Bangla";
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-bengali-400.woff2") format("woff2");
-  unicode-range: U+0980-09FF, U+09E6-09EF;
-}
+```html
+<!-- Bangladesh / Bengali websites -->
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-arabic.css">
 
-/* Arabic only */
-@font-face {
-  font-family: "Bangla";
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/fonts/weights/Bangla-arabic-400.woff2") format("woff2");
-  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF;
-}
+<!-- India (Hindi) -->
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-devanagari.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+
+<!-- Pan-India (all 8 official scripts) -->
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-devanagari.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tamil.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-telugu.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kannada.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-malayalam.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gujarati.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gurmukhi.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+
+<!-- Southeast Asia -->
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-thai.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-khmer.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-myanmar.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
+
+<!-- Middle East -->
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-arabic.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-hebrew.css">
+<link href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
 ```
 
 ---
 
-## GitHub Repository
+## Repository
 
 **[https://github.com/aicmsbd/bangla-fonts](https://github.com/aicmsbd/bangla-fonts)**
 
-- 341 WOFF2 files · 46 MB total
-- CSS: `bangla-universal.css` (all 120 scripts) · `bangla-weights.css` (core 5 scripts, 9 weights each)
-- License: Proprietary — Copyright © 2026 বাঙলা (bangla.it.com)
+```
+fonts/weights/     341 WOFF2 files (one per script × weight)
+css/               120 CSS files  (one per script)
+bangla-universal.css  all scripts in one file (126 KB)
+bangla-index.css      @import bundle for dev
+```
+
+Copyright © 2026 বাঙলা (bangla.it.com). All Rights Reserved.
