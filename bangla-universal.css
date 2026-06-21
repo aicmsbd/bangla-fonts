@@ -1,0 +1,3900 @@
+/*
+ * বাঙলা (Bangla) — Universal Font System
+ * Covers ~99% of world written languages
+ * 26 scripts · WOFF2 · unicode-range lazy loading
+ * Copyright (c) 2026 Bangla (bangla.it.com). All Rights Reserved.
+ */
+
+/* ──────────────────────────────────────────────────── */
+/* LATIN — Latin + extended */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-100.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-200.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-300.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-400.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-500.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-600.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-700.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-800.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-900.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BENGALI — Bengali + conjunct control */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-100.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-200.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-300.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-400.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-500.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-600.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-700.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-800.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bengali-900.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+200C, U+200D, U+25CC;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ARABIC — Arabic + Presentation Forms */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-100.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-200.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-300.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-400.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-500.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-600.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-700.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-800.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-arabic-900.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D, U+200F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CYRILLIC — Cyrillic + Extended */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-100.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-200.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-300.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-400.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-500.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-600.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-700.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-800.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cyrillic-900.woff2") format("woff2");
+  unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CJK — CJK Ideographs + Kana */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cjk-100.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cjk-300.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cjk-400.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cjk-500.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cjk-700.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cjk-900.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* DEVANAGARI — Devanagari — Hindi, Marathi, Sanskrit, Nepali */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-100.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-200.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-300.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-400.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-500.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-600.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-700.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-800.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-devanagari-900.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAMIL — Tamil — தமிழ் */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-100.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-200.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-300.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-400.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-500.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-600.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-700.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-800.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tamil-900.woff2") format("woff2");
+  unicode-range: U+0B82-0BFA;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TELUGU — Telugu — తెలుగు */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-100.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-200.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-300.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-400.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-500.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-600.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-700.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-800.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-telugu-900.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KANNADA — Kannada — ಕನ್ನಡ */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-100.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-200.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-300.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-400.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-500.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-600.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-700.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-800.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kannada-900.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+1CDA, U+200C, U+200D;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MALAYALAM — Malayalam — മലയാളം */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-100.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-200.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-300.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-400.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-500.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-600.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-700.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-800.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-malayalam-900.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GUJARATI — Gujarati — ગુજરાતી */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-100.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-200.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-300.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-400.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-500.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-600.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-700.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-800.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gujarati-900.woff2") format("woff2");
+  unicode-range: U+0A80-0AFF, U+200C, U+200D;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GURMUKHI — Gurmukhi — ਪੰਜਾਬੀ (Punjabi) */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-100.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-200.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-300.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-400.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-500.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-600.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-700.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-800.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gurmukhi-900.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ODIA — Odia (Oriya) — ଓଡ଼ିଆ */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-odia-400.woff2") format("woff2");
+  unicode-range: U+0B00-0B7F, U+1CDA, U+200C, U+200D;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-odia-700.woff2") format("woff2");
+  unicode-range: U+0B00-0B7F, U+1CDA, U+200C, U+200D;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SINHALA — Sinhala — සිංහල */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-100.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-200.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-300.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-400.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-500.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-600.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-700.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-800.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sinhala-900.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* THAI — Thai — ภาษาไทย */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-100.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-200.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-300.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-400.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-500.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-600.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-700.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-800.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thai-900.woff2") format("woff2");
+  unicode-range: U+0E00-0E7F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LAO — Lao — ພາສາລາວ */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-100.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-200.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-300.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-400.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-500.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-600.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-700.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-800.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lao-900.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MYANMAR — Myanmar (Burmese) — မြန်မာဘာသာ */
+/* ──────────────────────────────────────────────────── */
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-myanmar-300.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-myanmar-400.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-myanmar-700.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-myanmar-900.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KHMER — Khmer — ភាសាខ្មែរ (Cambodian) */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-100.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-200.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-300.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-400.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-500.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-600.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-700.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-800.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khmer-900.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TIBETAN — Tibetan — བོད་སྐད། */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tibetan-400.woff2") format("woff2");
+  unicode-range: U+0F00-0FFF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tibetan-700.woff2") format("woff2");
+  unicode-range: U+0F00-0FFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* HEBREW — Hebrew — עברית */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hebrew-100.woff2") format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+FB1D-FB4F;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hebrew-300.woff2") format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+FB1D-FB4F;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hebrew-400.woff2") format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+FB1D-FB4F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hebrew-700.woff2") format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+FB1D-FB4F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hebrew-900.woff2") format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+FB1D-FB4F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GEORGIAN — Georgian — ქართული */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-100.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-200.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-300.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-400.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-500.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-600.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-700.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-800.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-georgian-900.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ARMENIAN — Armenian — Հայերեն */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-100.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-200.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-300.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-400.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-500.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-600.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-700.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-800.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-armenian-900.woff2") format("woff2");
+  unicode-range: U+0531-058A, U+FB13-FB17;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ETHIOPIC — Ethiopic — አማርኛ (Amharic), Tigrinya */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-100.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-200.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-300.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-400.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-500.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-600.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-700.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-800.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ethiopic-900.woff2") format("woff2");
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GREEK — Greek — Ελληνικά */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-100.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-200.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-300.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-400.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-500.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-600.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-700.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-800.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-greek-900.woff2") format("woff2");
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LATIN-EXT — Latin Extended — Vietnamese, Polish, Czech, Turkish... */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-100.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-200.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-300.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-400.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-500.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-600.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-700.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-800.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-latin-ext-900.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF;
+}
+
+/* ═══════════════════════════════════════════════════ */
+/* ADDITIONAL SCRIPTS — Full Unicode Coverage         */
+/* ═══════════════════════════════════════════════════ */
+
+/* ──────────────────────────────────────────────────── */
+/* MONGOLIAN — Mongolian — Монгол бичиг */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-mongolian-400.woff2") format("woff2");
+  unicode-range: U+1800-18AF, U+202F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAI-LE — Tai Le */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tai-le-400.woff2") format("woff2");
+  unicode-range: U+1950-197F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* NEW-TAI-LUE — New Tai Lue — ᦎᦻᦺᦡᦷᦑᦲᦵᦓᦲ */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-new-tai-lue-400.woff2") format("woff2");
+  unicode-range: U+1980-19DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAI-THAM — Tai Tham (Lanna) — ᨲᩯ᩠ᨾ᩠ */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tai-tham-400.woff2") format("woff2");
+  unicode-range: U+1A20-1AAF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tai-tham-700.woff2") format("woff2");
+  unicode-range: U+1A20-1AAF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAI-VIET — Tai Viet — ꪼꪕ꫁ */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tai-viet-400.woff2") format("woff2");
+  unicode-range: U+AA80-AADF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CHAM — Cham — ꨀꩌꩫ (Vietnam/Cambodia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cham-400.woff2") format("woff2");
+  unicode-range: U+AA00-AA5F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cham-700.woff2") format("woff2");
+  unicode-range: U+AA00-AA5F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LISU — Lisu — Fraser Script (China/Myanmar) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lisu-400.woff2") format("woff2");
+  unicode-range: U+A4D0-A4FF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lisu-700.woff2") format("woff2");
+  unicode-range: U+A4D0-A4FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MIAO — Miao/Pollard (China) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-miao-400.woff2") format("woff2");
+  unicode-range: U+16F00-16F9F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KAYAH-LI — Kayah Li (Myanmar/Thailand) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kayah-li-400.woff2") format("woff2");
+  unicode-range: U+A900-A92F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kayah-li-700.woff2") format("woff2");
+  unicode-range: U+A900-A92F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* YI — Yi — ꆈꌠ (China) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-yi-400.woff2") format("woff2");
+  unicode-range: U+A000-A48F, U+A490-A4CF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MEETEI-MAYEK — Meetei Mayek — Manipuri (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-100.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-200.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-300.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-400.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-500.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-600.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-700.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-800.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meetei-mayek-900.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OL-CHIKI — Ol Chiki — Santali (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ol-chiki-400.woff2") format("woff2");
+  unicode-range: U+1C50-1C7F;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ol-chiki-500.woff2") format("woff2");
+  unicode-range: U+1C50-1C7F;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ol-chiki-600.woff2") format("woff2");
+  unicode-range: U+1C50-1C7F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ol-chiki-700.woff2") format("woff2");
+  unicode-range: U+1C50-1C7F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LIMBU — Limbu — Nepal/Sikkim */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-limbu-400.woff2") format("woff2");
+  unicode-range: U+1900-194F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SUNDANESE — Sundanese — ᮘᮞ ᮞᮥᮔ᮪ᮓ (Indonesia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sundanese-400.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sundanese-500.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sundanese-600.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sundanese-700.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BATAK — Batak — ᯀᯱᯨᯂ (Indonesia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-batak-400.woff2") format("woff2");
+  unicode-range: U+1BC0-1BFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* JAVANESE — Javanese — ꦧꦱꦗꦮ (Indonesia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-javanese-400.woff2") format("woff2");
+  unicode-range: U+A980-A9DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BUGINESE — Buginese — ᨒᨚᨈᨑᨚ (Indonesia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-buginese-400.woff2") format("woff2");
+  unicode-range: U+1A00-1A1F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* REJANG — Rejang (Indonesia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-rejang-400.woff2") format("woff2");
+  unicode-range: U+A930-A95F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SAURASHTRA — Saurashtra (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-saurashtra-400.woff2") format("woff2");
+  unicode-range: U+A880-A8DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LEPCHA — Lepcha — ᰛᰬᰡᰨᰧ (Sikkim) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lepcha-400.woff2") format("woff2");
+  unicode-range: U+1C00-1C4F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CHAKMA — Chakma — 𑄌𑄋𑄴𑄟𑄳𑄃 (Bangladesh/India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-chakma-400.woff2") format("woff2");
+  unicode-range: U+11100-1114F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SYLOTI-NAGRI — Syloti Nagri — Sylheti (Bangladesh/India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-syloti-nagri-400.woff2") format("woff2");
+  unicode-range: U+A800-A82F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* NEWA — Newa — Nepal Lipi (Nepal) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-newa-400.woff2") format("woff2");
+  unicode-range: U+11400-1147F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SORA-SOMPENG — Sora Sompeng (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sora-sompeng-400.woff2") format("woff2");
+  unicode-range: U+110D0-110FF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sora-sompeng-700.woff2") format("woff2");
+  unicode-range: U+110D0-110FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* WARANG-CITI — Warang Citi — Ho (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-warang-citi-400.woff2") format("woff2");
+  unicode-range: U+118A0-118FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* PAHAWH-HMONG — Pahawh Hmong (SE Asia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-pahawh-hmong-400.woff2") format("woff2");
+  unicode-range: U+16B00-16B8F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ZANABAZAR — Zanabazar Square (Mongolia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-zanabazar-400.woff2") format("woff2");
+  unicode-range: U+11A00-11A4F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SOYOMBO — Soyombo (Mongolia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-soyombo-400.woff2") format("woff2");
+  unicode-range: U+11A50-11AAF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAGALOG — Tagalog — Baybayin (Philippines) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tagalog-400.woff2") format("woff2");
+  unicode-range: U+1700-171F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* HANUNOO — Hanunoo (Philippines) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hanunoo-400.woff2") format("woff2");
+  unicode-range: U+1720-173F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BUHID — Buhid (Philippines) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-buhid-400.woff2") format("woff2");
+  unicode-range: U+1740-175F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAGBANWA — Tagbanwa (Philippines) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tagbanwa-400.woff2") format("woff2");
+  unicode-range: U+1760-177F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* THAANA — Thaana — Maldivian Dhivehi */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-100.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-200.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-300.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-400.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-500.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-600.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-700.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-800.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-thaana-900.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SYRIAC — Syriac — Aramaic (Syria/Iraq) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-syriac-400.woff2") format("woff2");
+  unicode-range: U+0700-074F, U+0750-077F;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-syriac-900.woff2") format("woff2");
+  unicode-range: U+0700-074F, U+0750-077F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* NKO — N'Ko — ߒߞߏ (West Africa) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-nko-400.woff2") format("woff2");
+  unicode-range: U+07C0-07FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BAMUM — Bamum — ꚠꚡꚢ (Cameroon) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bamum-400.woff2") format("woff2");
+  unicode-range: U+A6A0-A6FF, U+16800-16A3F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TIFINAGH — Tifinagh — Amazigh/Berber (Morocco/Algeria) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tifinagh-400.woff2") format("woff2");
+  unicode-range: U+2D30-2D7F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* VAI — Vai — ꔀꕯꔷ (Liberia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-vai-400.woff2") format("woff2");
+  unicode-range: U+A500-A63F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MENDE-KIKAKUI — Mende Kikakui (Sierra Leone) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-mende-kikakui-400.woff2") format("woff2");
+  unicode-range: U+1E800-1E8DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ADLAM — Adlam — 𞤀𞤣𞤤𞤢𞤥 (Fulani, West Africa) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-adlam-400.woff2") format("woff2");
+  unicode-range: U+1E900-1E95F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-adlam-700.woff2") format("woff2");
+  unicode-range: U+1E900-1E95F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OSMANYA — Osmanya — 𐒀𐒁𐒂 (Somali) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-osmanya-400.woff2") format("woff2");
+  unicode-range: U+10480-104AF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SAMARITAN — Samaritan (Palestine/Israel) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-samaritan-400.woff2") format("woff2");
+  unicode-range: U+0800-083F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MANDAIC — Mandaic (Iraq/Iran) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-mandaic-400.woff2") format("woff2");
+  unicode-range: U+0840-085F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* HANIFI-ROHINGYA — Hanifi Rohingya 𐴀𐴠𐴢𐴨𐴥𐴦𐴧 */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hanifi-rohingya-400.woff2") format("woff2");
+  unicode-range: U+10D00-10D3F;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hanifi-rohingya-700.woff2") format("woff2");
+  unicode-range: U+10D00-10D3F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CANADIAN-ABORIGINAL — Canadian Aboriginal Syllabics (Canada) */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-100.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-200.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-300.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-400.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-500.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-600.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-700.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-800.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-canadian-aboriginal-900.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CHEROKEE — Cherokee — ᎠᏍᎦᏯ (USA) */
+/* ──────────────────────────────────────────────────── */
+
+/* Thin (100) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-100.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-200.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Light (300) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-300.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-400.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-500.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-600.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-700.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-800.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cherokee-900.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* DESERET — Deseret (USA - historical) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-deseret-400.woff2") format("woff2");
+  unicode-range: U+10400-1044F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OSAGE — Osage (USA) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-osage-400.woff2") format("woff2");
+  unicode-range: U+104B0-104D3, U+104D8-104FB;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GLAGOLITIC — Glagolitic — Old Slavic */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-glagolitic-400.woff2") format("woff2");
+  unicode-range: U+2C00-2C5F, U+1E000-1E02F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* COPTIC — Coptic — Egypt liturgical */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-coptic-400.woff2") format("woff2");
+  unicode-range: U+2C80-2CFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GOTHIC — Gothic — historical Germanic */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gothic-400.woff2") format("woff2");
+  unicode-range: U+10330-1034F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ELBASAN — Elbasan (Albania - historical) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-elbasan-400.woff2") format("woff2");
+  unicode-range: U+10500-1052F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SHAVIAN — Shavian — Shaw Alphabet */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-shavian-400.woff2") format("woff2");
+  unicode-range: U+10450-1047F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OGHAM — Ogham — ancient Irish */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ogham-400.woff2") format("woff2");
+  unicode-range: U+1680-169F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* RUNIC — Runic — Germanic */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-runic-400.woff2") format("woff2");
+  unicode-range: U+16A0-16FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KAITHI — Kaithi (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kaithi-400.woff2") format("woff2");
+  unicode-range: U+11080-110CF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MAHAJANI — Mahajani (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-mahajani-400.woff2") format("woff2");
+  unicode-range: U+11150-1117F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KHOJKI — Khojki (India/Pakistan) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khojki-400.woff2") format("woff2");
+  unicode-range: U+11200-1124F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KHUDAWADI — Khudawadi — Sindhi */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-khudawadi-400.woff2") format("woff2");
+  unicode-range: U+112B0-112FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TIRHUTA — Tirhuta — Maithili (India/Nepal) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tirhuta-400.woff2") format("woff2");
+  unicode-range: U+11480-114DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SHARADA — Sharada — Kashmir */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sharada-400.woff2") format("woff2");
+  unicode-range: U+11180-111DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TAKRI — Takri (North India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-takri-400.woff2") format("woff2");
+  unicode-range: U+11680-116CF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MULTANI — Multani (Pakistan) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-multani-400.woff2") format("woff2");
+  unicode-range: U+11280-112AF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MODI — Modi — Marathi historical */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-modi-400.woff2") format("woff2");
+  unicode-range: U+11600-1165F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MASARAM-GONDI — Masaram Gondi (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-masaram-gondi-400.woff2") format("woff2");
+  unicode-range: U+11D00-11D5F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* GUNJALA-GONDI — Gunjala Gondi (India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gunjala-gondi-400.woff2") format("woff2");
+  unicode-range: U+11D60-11DAF;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-gunjala-gondi-700.woff2") format("woff2");
+  unicode-range: U+11D60-11DAF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MRO — Mro (Bangladesh/Myanmar) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-mro-400.woff2") format("woff2");
+  unicode-range: U+16A40-16A6F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* WANCHO — Wancho (India/Myanmar) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-wancho-400.woff2") format("woff2");
+  unicode-range: U+1E2C0-1E2FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* PAU-CIN-HAU — Pau Cin Hau (Myanmar) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-pau-cin-hau-400.woff2") format("woff2");
+  unicode-range: U+11AC0-11AFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* PHAGS-PA — Phags-Pa — Mongolian Empire script */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-phags-pa-400.woff2") format("woff2");
+  unicode-range: U+A840-A87F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* IMPERIAL-ARAMAIC — Imperial Aramaic (ancient) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-imperial-aramaic-400.woff2") format("woff2");
+  unicode-range: U+10840-1085F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* NABATAEAN — Nabataean (ancient Jordan) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-nabataean-400.woff2") format("woff2");
+  unicode-range: U+10880-108AF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* PHOENICIAN — Phoenician (ancient) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-phoenician-400.woff2") format("woff2");
+  unicode-range: U+10900-1091F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-SOUTH-ARABIAN — Old South Arabian */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-south-arabian-400.woff2") format("woff2");
+  unicode-range: U+10A60-10A9F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-NORTH-ARABIAN — Old North Arabian */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-north-arabian-400.woff2") format("woff2");
+  unicode-range: U+10A80-10A9F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-HUNGARIAN — Old Hungarian (Rovas) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-hungarian-400.woff2") format("woff2");
+  unicode-range: U+10C80-10CFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-ITALIC — Old Italic (ancient) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-italic-400.woff2") format("woff2");
+  unicode-range: U+10300-1032F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-TURKIC — Old Turkic (Orkhon script) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-turkic-400.woff2") format("woff2");
+  unicode-range: U+10C00-10C4F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SOGDIAN — Sogdian (Central Asia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-sogdian-400.woff2") format("woff2");
+  unicode-range: U+10F30-10F6F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-SOGDIAN — Old Sogdian */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-sogdian-400.woff2") format("woff2");
+  unicode-range: U+10F00-10F2F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* INSCRIPTIONAL-PAHLAVI — Inscriptional Pahlavi (Persia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-inscriptional-pahlavi-400.woff2") format("woff2");
+  unicode-range: U+10B60-10B7F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* INSCRIPTIONAL-PARTHIAN — Inscriptional Parthian */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-inscriptional-parthian-400.woff2") format("woff2");
+  unicode-range: U+10B40-10B5F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* PSALTER-PAHLAVI — Psalter Pahlavi */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-psalter-pahlavi-400.woff2") format("woff2");
+  unicode-range: U+10B80-10BAF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MANICHAEAN — Manichaean (ancient) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-manichaean-400.woff2") format("woff2");
+  unicode-range: U+10AC0-10AFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* HATRAN — Hatran (ancient Aramaic) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-hatran-400.woff2") format("woff2");
+  unicode-range: U+108E0-108FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* PALMYRENE — Palmyrene (ancient Syria) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-palmyrene-400.woff2") format("woff2");
+  unicode-range: U+10860-1087F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* UGARITIC — Ugaritic (ancient Syria) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ugaritic-400.woff2") format("woff2");
+  unicode-range: U+10380-1039F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LINEAR-B-SYLLABARY — Linear B Syllabary (ancient Greek) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-linear-b-syllabary-400.woff2") format("woff2");
+  unicode-range: U+10000-1003A;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LYCIAN — Lycian (ancient Anatolia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lycian-400.woff2") format("woff2");
+  unicode-range: U+10280-1029F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LYDIAN — Lydian (ancient Anatolia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-lydian-400.woff2") format("woff2");
+  unicode-range: U+10920-1093F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* NUSHU — Nushu — Women's script (China) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-nushu-400.woff2") format("woff2");
+  unicode-range: U+1B170-1B2FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BHAIKSUKI — Bhaiksuki — Buddhist script */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bhaiksuki-400.woff2") format("woff2");
+  unicode-range: U+11C00-11C6F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MARCHEN — Marchen (Tibet) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-marchen-400.woff2") format("woff2");
+  unicode-range: U+11C70-11CBF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* DUPLOYAN — Duployan (shorthand) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-duployan-400.woff2") format("woff2");
+  unicode-range: U+1BC00-1BC9F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* SIDDHAM — Siddham — Buddhist mantra script */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-siddham-400.woff2") format("woff2");
+  unicode-range: U+11580-115FF;
+}
