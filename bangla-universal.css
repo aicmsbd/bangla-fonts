@@ -4329,3 +4329,50 @@
   src: url("./fonts/weights/Bangla-cypriote-400.woff2") format("woff2");
   unicode-range: U+10800-1083F;
 }
+
+/* ─── Bopomofo 注音符號 (Taiwan) ─────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bopomofo-300.woff2") format("woff2");
+  unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF;
+}
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bopomofo-400.woff2") format("woff2");
+  unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF;
+}
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bopomofo-500.woff2") format("woff2");
+  unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF;
+}
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bopomofo-700.woff2") format("woff2");
+  unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF;
+}
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-bopomofo-900.woff2") format("woff2");
+  unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF;
+}
