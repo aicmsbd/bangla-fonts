@@ -1,0 +1,13 @@
+/* Bangla — Toto (West Bengal/Bhutan border, India)
+   U+1E290-1E2BF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-toto.css */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-toto-400.woff2") format("woff2");
+  unicode-range: U+1E290-1E2BF;
+}

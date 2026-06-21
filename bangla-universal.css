@@ -4190,3 +4190,142 @@
   src: url("./fonts/weights/Bangla-linear-a-400.woff2") format("woff2");
   unicode-range: U+10600-1077F;
 }
+
+/* ═══ FIX: 9 REMAINING SCRIPTS ════════════════════════════ */
+
+/* ═══ FIX v3: LAST 9 SCRIPTS ══════════════════════════════ */
+
+/* ────────────────────────────────────────────────── */
+/* BALINESE — Balinese — ᬩᬲᬩᬮᬶ (Bali, Indonesia) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-balinese-300.woff2") format("woff2");
+  unicode-range: U+1B00-1B7F, U+A980-A9DF;
+}
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-balinese-400.woff2") format("woff2");
+  unicode-range: U+1B00-1B7F, U+A980-A9DF;
+}
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-balinese-700.woff2") format("woff2");
+  unicode-range: U+1B00-1B7F, U+A980-A9DF;
+}
+
+/* ────────────────────────────────────────────────── */
+/* MAKASAR — Makasar — South Sulawesi (Indonesia) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-makasar-400.woff2") format("woff2");
+  unicode-range: U+11EE0-11EFF;
+}
+
+/* ────────────────────────────────────────────────── */
+/* DOGRA — Dogra — 𑠙𑠵𑠘𑠤 (Jammu & Kashmir, India) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-dogra-400.woff2") format("woff2");
+  unicode-range: U+11800-1184F;
+}
+
+/* ────────────────────────────────────────────────── */
+/* TOTO — Toto (West Bengal/Bhutan border, India) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-toto-400.woff2") format("woff2");
+  unicode-range: U+1E290-1E2BF;
+}
+
+/* ────────────────────────────────────────────────── */
+/* YEZIDI — Yezidi — Yazidi people (Iraq/Syria/Turkey) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-yezidi-400.woff2") format("woff2");
+  unicode-range: U+10E80-10EBF;
+}
+
+/* ────────────────────────────────────────────────── */
+/* OLD-UYGHUR — Old Uyghur (Central Asia, historical) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-uyghur-400.woff2") format("woff2");
+  unicode-range: U+10F70-10FAF;
+}
+
+/* ────────────────────────────────────────────────── */
+/* NYIAKENG-HMONG — Nyiakeng Puachue Hmong (SE Asia) */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-nyiakeng-hmong-400.woff2") format("woff2");
+  unicode-range: U+1E100-1E14F;
+}
+
+/* ────────────────────────────────────────────────── */
+/* DIVES-AKURU — Dives Akuru — Maldives historical script */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-dives-akuru-400.woff2") format("woff2");
+  unicode-range: U+11900-1195F;
+}
+
+/* ────────────────────────────────────────────────── */
+/* CYPRIOTE — Cypriot Syllabary — ancient Cyprus */
+/* ────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cypriote-400.woff2") format("woff2");
+  unicode-range: U+10800-1083F;
+}
