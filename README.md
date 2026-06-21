@@ -1,6 +1,6 @@
 # বাঙলা (Bangla) — Universal Web Font System
 
-**120 Scripts · 341 WOFF2 · Every Human Writing System Online**
+**146 Scripts · 374 WOFF2 · Every Human Writing System Online**
 
 The only web font covering virtually every script in one `font-family`.  
 Browser fetches **only the script your page actually uses** via CSS `unicode-range`.
@@ -27,7 +27,7 @@ Pick the scripts your site uses. Each is a tiny separate file:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-latin.css">
 ```
 
-### Option 2 — Load all 120 scripts (easiest, browser still lazy-loads)
+### Option 2 — Load all 146 scripts (easiest, browser still lazy-loads)
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/bangla-universal.css">
@@ -71,6 +71,9 @@ Base URL: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/`
 | Script | Language | CSS Link | Weights |
 |--------|----------|----------|---------|
 | Bengali | বাংলা | [bangla-bengali.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali.css) | 100–900 |
+| Dogra | 𑠙𑠵𑠘𑠤 Jammu | [bangla-dogra.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-dogra.css) | 400 |
+| Dives Akuru | Maldives historical | [bangla-dives-akuru.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-dives-akuru.css) | 400 |
+| Toto | West Bengal/Bhutan | [bangla-toto.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-toto.css) | 400 |
 | Devanagari | हिन्दी · मराठी · नेपाली | [bangla-devanagari.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-devanagari.css) | 100–900 |
 | Tamil | தமிழ் | [bangla-tamil.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tamil.css) | 100–900 |
 | Telugu | తెలుగు | [bangla-telugu.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-telugu.css) | 100–900 |
@@ -123,6 +126,9 @@ Base URL: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/`
 | Javanese | Indonesia | [bangla-javanese.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-javanese.css) | 400 |
 | Buginese | Indonesia | [bangla-buginese.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-buginese.css) | 400 |
 | Rejang | Indonesia | [bangla-rejang.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-rejang.css) | 400 |
+| Balinese | ᬩᬲᬩᬮᬶ Bali | [bangla-balinese.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-balinese.css) | 300 400 700 |
+| Makasar | South Sulawesi | [bangla-makasar.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-makasar.css) | 400 |
+| Nyiakeng Puachue Hmong | SE Asia | [bangla-nyiakeng-hmong.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-nyiakeng-hmong.css) | 400 |
 | Pahawh Hmong | SE Asia | [bangla-pahawh-hmong.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-pahawh-hmong.css) | 400 |
 | Pau Cin Hau | Myanmar | [bangla-pau-cin-hau.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-pau-cin-hau.css) | 400 |
 
@@ -172,6 +178,7 @@ Base URL: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/`
 | Hanifi Rohingya | Rohingya | [bangla-hanifi-rohingya.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-hanifi-rohingya.css) | 400 700 |
 | Samaritan | Palestine | [bangla-samaritan.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-samaritan.css) | 400 |
 | Mandaic | Iraq/Iran | [bangla-mandaic.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-mandaic.css) | 400 |
+| Yezidi | Yazidi (Iraq/Syria/Turkey) | [bangla-yezidi.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-yezidi.css) | 400 |
 
 ### Europe
 
@@ -224,6 +231,8 @@ Base URL: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/`
 | Linear B Syllabary | [bangla-linear-b-syllabary.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-linear-b-syllabary.css) | |
 | Lycian | [bangla-lycian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lycian.css) | |
 | Lydian | [bangla-lydian.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lydian.css) | |
+| Cypriot Syllabary | ancient Cyprus | [bangla-cypriote.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cypriote.css) | 400 |
+| Old Uyghur | Central Asia historical | [bangla-old-uyghur.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-uyghur.css) | 400 |
 | Duployan (shorthand) | [bangla-duployan.css](https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-duployan.css) | |
 
 ---
@@ -270,9 +279,9 @@ Base URL: `https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/`
 **[https://github.com/aicmsbd/bangla-fonts](https://github.com/aicmsbd/bangla-fonts)**
 
 ```
-fonts/weights/     341 WOFF2 files (one per script × weight)
-css/               120 CSS files  (one per script)
-bangla-universal.css  all scripts in one file (126 KB)
+fonts/weights/     374 WOFF2 files (one per script × weight)
+css/               146 CSS files  (one per script)
+bangla-universal.css  all scripts in one file
 bangla-index.css      @import bundle for dev
 ```
 
