@@ -1,0 +1,26 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Cham — ꨀꩌꩫ
+   U+AA00-AA5F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cham.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cham-400.woff2") format("woff2");
+  unicode-range: U+AA00-AA5F;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cham-700.woff2") format("woff2");
+  unicode-range: U+AA00-AA5F;
+}

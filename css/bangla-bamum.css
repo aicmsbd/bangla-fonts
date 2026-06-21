@@ -1,0 +1,16 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Bamum — Cameroon
+   U+A6A0-A6FF, U+16800-16A3F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bamum.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-bamum-400.woff2") format("woff2");
+  unicode-range: U+A6A0-A6FF, U+16800-16A3F;
+}

@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Devanagari — हिन्दी
+   U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-devanagari.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Thin */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-100.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-200.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-300.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-400.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-500.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-600.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-700.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-800.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-devanagari-900.woff2") format("woff2");
+  unicode-range: U+0900-097F, U+0951-0952, U+0964-0965, U+0970, U+1CD0-1CFF, U+200C, U+200D, U+20B9;
+}

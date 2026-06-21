@@ -1,0 +1,46 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Myanmar — မြန်မာဘာသာ
+   U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-myanmar.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-myanmar-300.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-myanmar-400.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-myanmar-700.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-myanmar-900.woff2") format("woff2");
+  unicode-range: U+1000-109F, U+A9E0-A9FE, U+AA60-AA7F;
+}

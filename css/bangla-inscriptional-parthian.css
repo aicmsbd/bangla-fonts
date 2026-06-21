@@ -1,0 +1,16 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Inscriptional Parthian
+   U+10B40-10B5F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-inscriptional-parthian.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-inscriptional-parthian-400.woff2") format("woff2");
+  unicode-range: U+10B40-10B5F;
+}

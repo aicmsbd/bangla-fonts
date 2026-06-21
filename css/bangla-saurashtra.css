@@ -1,0 +1,16 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Saurashtra
+   U+A880-A8DF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-saurashtra.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-saurashtra-400.woff2") format("woff2");
+  unicode-range: U+A880-A8DF;
+}

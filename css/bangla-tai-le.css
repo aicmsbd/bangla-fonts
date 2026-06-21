@@ -1,0 +1,16 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Tai Le
+   U+1950-197F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tai-le.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-tai-le-400.woff2") format("woff2");
+  unicode-range: U+1950-197F;
+}

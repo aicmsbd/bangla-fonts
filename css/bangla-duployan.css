@@ -1,0 +1,16 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Duployan
+   U+1BC00-1BC9F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-duployan.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-duployan-400.woff2") format("woff2");
+  unicode-range: U+1BC00-1BC9F;
+}

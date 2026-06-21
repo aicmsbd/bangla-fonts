@@ -1,0 +1,26 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Kayah Li
+   U+A900-A92F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kayah-li.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kayah-li-400.woff2") format("woff2");
+  unicode-range: U+A900-A92F;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kayah-li-700.woff2") format("woff2");
+  unicode-range: U+A900-A92F;
+}

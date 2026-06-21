@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Lao — ພາສາລາວ
+   U+0E80-0EFF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lao.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Thin */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-100.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-200.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-300.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-400.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-500.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-600.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-700.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-800.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-900.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}

@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Kannada — ಕನ್ನಡ
+   U+0C80-0CFF, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kannada.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Thin */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-100.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-200.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-300.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-400.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-500.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-600.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-700.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-800.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-900.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}

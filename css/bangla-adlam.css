@@ -1,0 +1,26 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Adlam — 𞤀𞤣𞤤𞤢𞤥 (Fulani)
+   U+1E900-1E95F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-adlam.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-adlam-400.woff2") format("woff2");
+  unicode-range: U+1E900-1E95F;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-adlam-700.woff2") format("woff2");
+  unicode-range: U+1E900-1E95F;
+}

@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Canadian Aboriginal Syllabics
+   U+1400-167F, U+18B0-18FF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-canadian-aboriginal.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Thin */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-100.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-200.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-300.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-400.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-500.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-600.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-700.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-800.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-900.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}

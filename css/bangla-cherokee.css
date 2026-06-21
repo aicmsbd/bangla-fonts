@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Cherokee — ᎠᏍᎦᏯ
+   U+13A0-13FF, U+AB70-ABBF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cherokee.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Thin */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-100.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-200.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-300.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-400.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-500.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-600.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-700.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-800.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-900.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}

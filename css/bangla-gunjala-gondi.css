@@ -1,0 +1,26 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Gunjala Gondi
+   U+11D60-11DAF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gunjala-gondi.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-gunjala-gondi-400.woff2") format("woff2");
+  unicode-range: U+11D60-11DAF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-gunjala-gondi-700.woff2") format("woff2");
+  unicode-range: U+11D60-11DAF;
+}

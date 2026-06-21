@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Khmer — ភាសាខ្មែរ
+   U+1780-17FF, U+200C, U+200D, U+19E0-19FF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-khmer.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Thin */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-100.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-200.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-300.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-400.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-500.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-600.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-700.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-800.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-900.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}

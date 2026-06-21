@@ -1,0 +1,46 @@
+/* ═══════════════════════════════════════════════════ */
+/* Bangla — Sundanese — ᮘᮞ ᮞᮥᮔ᮪ᮓ
+   U+1B80-1BBF, U+1CC0-1CCF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sundanese.css
+*/
+/* ═══════════════════════════════════════════════════ */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-sundanese-400.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-sundanese-500.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-sundanese-600.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-sundanese-700.woff2") format("woff2");
+  unicode-range: U+1B80-1BBF, U+1CC0-1CCF;
+}
