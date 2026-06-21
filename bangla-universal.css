@@ -3900,3 +3900,293 @@
   src: url("../fonts/weights/Bangla-zanabazar-400.woff2") format("woff2");
   unicode-range: U+11A00-11A4F;
 }
+
+/* ═══ FINAL 25 SCRIPTS ═══════════════════════════════════ */
+
+/* ──────────────────────────────────────────────────── */
+/* KOREAN — Korean Hangul — 한국어 */
+/* ──────────────────────────────────────────────────── */
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-korean-300.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-korean-400.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-korean-500.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-korean-700.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-korean-900.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* MEROITIC — Meroitic — ancient Nubia (Sudan/Egypt) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-meroitic-400.woff2") format("woff2");
+  unicode-range: U+109A0-109FF, U+10980-1099F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* BRAHMI — Brahmi — 𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻 (ancient India, mother of all South Asian scripts) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-brahmi-400.woff2") format("woff2");
+  unicode-range: U+11000-1107F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* AHOM — Ahom — 𑜁𑜑𑜡𑜪 (Assam, India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-ahom-400.woff2") format("woff2");
+  unicode-range: U+11700-1174F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* NANDINAGARI — Nandinagari (Karnataka, India) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-nandinagari-400.woff2") format("woff2");
+  unicode-range: U+119A0-119FF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* KHAROSHTHI — Kharoshthi — ancient Gandhara (Pakistan/Afghanistan) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-kharoshthi-400.woff2") format("woff2");
+  unicode-range: U+10A00-10A5F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* AVESTAN — Avestan — Zoroastrian (Iran) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-avestan-400.woff2") format("woff2");
+  unicode-range: U+10B00-10B3F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* OLD-PERSIAN — Old Persian — 𐎠𐎼𐎹𐎠 (ancient Iran) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-old-persian-400.woff2") format("woff2");
+  unicode-range: U+103A0-103DF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CHORASMIAN — Chorasmian — ancient Uzbekistan */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-chorasmian-400.woff2") format("woff2");
+  unicode-range: U+10FB0-10FDF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ELYMAIC — Elymaic — ancient Elam (Persia) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-elymaic-400.woff2") format("woff2");
+  unicode-range: U+10FE0-10FFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* VITHKUQI — Vithkuqi — modern Albanian script */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-vithkuqi-400.woff2") format("woff2");
+  unicode-range: U+10570-105BF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-vithkuqi-700.woff2") format("woff2");
+  unicode-range: U+10570-105BF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CYPRO-MINOAN — Cypro-Minoan — ancient Cyprus (older) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cypro-minoan-400.woff2") format("woff2");
+  unicode-range: U+12F90-12FFF;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* ANATOLIAN-HIEROGLYPHS — Anatolian Hieroglyphs — Hittite (ancient Turkey) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-anatolian-hieroglyphs-400.woff2") format("woff2");
+  unicode-range: U+14400-1467F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* CUNEIFORM — Cuneiform — 𒀭 ancient Mesopotamia (Iraq/Syria) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-cuneiform-400.woff2") format("woff2");
+  unicode-range: U+12000-123FF, U+12400-1247F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* EGYPTIAN-HIEROGLYPHS — Egyptian Hieroglyphs — 𓀀 (ancient Egypt) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-egyptian-hieroglyphs-400.woff2") format("woff2");
+  unicode-range: U+13000-1342F, U+13430-1343F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* TANGUT — Tangut — 𗴂𗱕 (China, Xi Xia dynasty) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-tangut-400.woff2") format("woff2");
+  unicode-range: U+17000-187FF, U+18D00-18D7F;
+}
+
+/* ──────────────────────────────────────────────────── */
+/* LINEAR-A — Linear A — ancient Crete (undeciphered Minoan) */
+/* ──────────────────────────────────────────────────── */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/weights/Bangla-linear-a-400.woff2") format("woff2");
+  unicode-range: U+10600-1077F;
+}

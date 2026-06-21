@@ -1,0 +1,13 @@
+/* Bangla — Brahmi — 𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻 (ancient India, mother of all South Asian scripts)
+   U+11000-1107F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-brahmi.css */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-brahmi-400.woff2") format("woff2");
+  unicode-range: U+11000-1107F;
+}

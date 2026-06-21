@@ -1,0 +1,13 @@
+/* Bangla — Cypro-Minoan — ancient Cyprus (older)
+   U+12F90-12FFF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cypro-minoan.css */
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cypro-minoan-400.woff2") format("woff2");
+  unicode-range: U+12F90-12FFF;
+}

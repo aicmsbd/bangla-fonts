@@ -1,0 +1,53 @@
+/* Bangla — Korean Hangul — 한국어
+   U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-korean.css */
+
+/* Light */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-korean-300.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-korean-400.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-korean-500.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-korean-700.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
+
+/* Black */
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-korean-900.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+AC00-D7A3, U+3131-318E, U+A960-A97C;
+}
