@@ -1,0 +1,12 @@
+/* Bangla — canadian-aboriginal — Light
+   unicode-range: U+1400-167F, U+18B0-18FF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-canadian-aboriginal-300.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-canadian-aboriginal-300.woff2") format("woff2");
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}

@@ -1,0 +1,12 @@
+/* Bangla — armenian — Medium
+   unicode-range: U+0530-058F, U+FB00-FB4F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-armenian-500.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-armenian-500.woff2") format("woff2");
+  unicode-range: U+0530-058F, U+FB00-FB4F;
+}

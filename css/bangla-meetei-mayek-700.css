@@ -1,0 +1,12 @@
+/* Bangla — meetei-mayek — Bold
+   unicode-range: U+AAE0-AAF6, U+ABC0-ABED, U+ABF0-ABF9
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-meetei-mayek-700.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-meetei-mayek-700.woff2") format("woff2");
+  unicode-range: U+AAE0-AAF6, U+ABC0-ABED, U+ABF0-ABF9;
+}

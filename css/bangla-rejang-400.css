@@ -1,0 +1,12 @@
+/* Bangla — rejang — Regular
+   unicode-range: U+A930-A95F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-rejang-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-rejang-400.woff2") format("woff2");
+  unicode-range: U+A930-A95F;
+}

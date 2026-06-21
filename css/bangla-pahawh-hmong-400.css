@@ -1,0 +1,12 @@
+/* Bangla — pahawh-hmong — Regular
+   unicode-range: U+16B00-16B8F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-pahawh-hmong-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-pahawh-hmong-400.woff2") format("woff2");
+  unicode-range: U+16B00-16B8F;
+}

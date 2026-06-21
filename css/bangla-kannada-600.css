@@ -1,0 +1,12 @@
+/* Bangla — kannada — SemiBold
+   unicode-range: U+0C80-0CFF, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-kannada-600.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-kannada-600.woff2") format("woff2");
+  unicode-range: U+0C80-0CFF, U+200C, U+200D;
+}

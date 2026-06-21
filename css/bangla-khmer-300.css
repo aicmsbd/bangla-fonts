@@ -1,0 +1,12 @@
+/* Bangla — khmer — Light
+   unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-khmer-300.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-khmer-300.woff2") format("woff2");
+  unicode-range: U+1780-17FF, U+200C, U+200D, U+19E0-19FF;
+}

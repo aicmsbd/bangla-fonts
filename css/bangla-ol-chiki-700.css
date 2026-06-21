@@ -1,0 +1,12 @@
+/* Bangla — ol-chiki — Bold
+   unicode-range: U+1C50-1C7F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-ol-chiki-700.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-ol-chiki-700.woff2") format("woff2");
+  unicode-range: U+1C50-1C7F;
+}

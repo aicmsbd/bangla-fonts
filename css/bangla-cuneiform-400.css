@@ -1,0 +1,12 @@
+/* Bangla — cuneiform — Regular
+   unicode-range: U+12000-123FF, U+12400-1247F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cuneiform-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cuneiform-400.woff2") format("woff2");
+  unicode-range: U+12000-123FF, U+12400-1247F;
+}

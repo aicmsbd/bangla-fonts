@@ -1,0 +1,12 @@
+/* Bangla — gurmukhi — Medium
+   unicode-range: U+0A00-0A7F, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-gurmukhi-500.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-gurmukhi-500.woff2") format("woff2");
+  unicode-range: U+0A00-0A7F, U+200C, U+200D;
+}

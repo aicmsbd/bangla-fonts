@@ -1,0 +1,12 @@
+/* Bangla — old-south-arabian — Regular
+   unicode-range: U+10A60-10A9F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-old-south-arabian-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-old-south-arabian-400.woff2") format("woff2");
+  unicode-range: U+10A60-10A9F;
+}

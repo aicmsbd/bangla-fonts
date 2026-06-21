@@ -1,0 +1,12 @@
+/* Bangla — meroitic — Regular
+   unicode-range: U+109A0-109FF, U+10980-1099F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-meroitic-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-meroitic-400.woff2") format("woff2");
+  unicode-range: U+109A0-109FF, U+10980-1099F;
+}

@@ -1,0 +1,12 @@
+/* Bangla — georgian — Medium
+   unicode-range: U+10A0-10FF, U+2D00-2D2F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-georgian-500.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-georgian-500.woff2") format("woff2");
+  unicode-range: U+10A0-10FF, U+2D00-2D2F;
+}

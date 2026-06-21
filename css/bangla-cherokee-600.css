@@ -1,0 +1,12 @@
+/* Bangla — cherokee — SemiBold
+   unicode-range: U+13A0-13FF, U+AB70-ABBF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cherokee-600.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cherokee-600.woff2") format("woff2");
+  unicode-range: U+13A0-13FF, U+AB70-ABBF;
+}

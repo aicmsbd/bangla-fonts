@@ -1,0 +1,12 @@
+/* Bangla — malayalam — ExtraLight
+   unicode-range: U+0D00-0D7F, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-malayalam-200.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-malayalam-200.woff2") format("woff2");
+  unicode-range: U+0D00-0D7F, U+200C, U+200D;
+}

@@ -1,0 +1,12 @@
+/* Bangla — bengali — ExtraBold
+   unicode-range: U+0980-09FF, U+09E6-09EF, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bengali-800.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-bengali-800.woff2") format("woff2");
+  unicode-range: U+0980-09FF, U+09E6-09EF, U+200C, U+200D;
+}

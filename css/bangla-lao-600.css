@@ -1,0 +1,12 @@
+/* Bangla — lao — SemiBold
+   unicode-range: U+0E80-0EFF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-lao-600.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-lao-600.woff2") format("woff2");
+  unicode-range: U+0E80-0EFF;
+}

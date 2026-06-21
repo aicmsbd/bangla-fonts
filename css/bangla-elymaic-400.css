@@ -1,0 +1,12 @@
+/* Bangla — elymaic — Regular
+   unicode-range: U+10FE0-10FFF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-elymaic-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-elymaic-400.woff2") format("woff2");
+  unicode-range: U+10FE0-10FFF;
+}

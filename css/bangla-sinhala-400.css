@@ -1,0 +1,12 @@
+/* Bangla — sinhala — Regular
+   unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sinhala-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-sinhala-400.woff2") format("woff2");
+  unicode-range: U+0D80-0DFF, U+111E0-111FF, U+200C, U+200D;
+}

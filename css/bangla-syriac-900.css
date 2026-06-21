@@ -1,0 +1,12 @@
+/* Bangla — syriac — Black
+   unicode-range: U+0700-074F, U+0750-077F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-syriac-900.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-syriac-900.woff2") format("woff2");
+  unicode-range: U+0700-074F, U+0750-077F;
+}

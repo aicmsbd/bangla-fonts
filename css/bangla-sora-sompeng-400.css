@@ -1,0 +1,12 @@
+/* Bangla — sora-sompeng — Regular
+   unicode-range: U+110D0-110FF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-sora-sompeng-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-sora-sompeng-400.woff2") format("woff2");
+  unicode-range: U+110D0-110FF;
+}

@@ -1,0 +1,12 @@
+/* Bangla — egyptian-hieroglyphs — Regular
+   unicode-range: U+13000-1342F, U+13430-1343F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-egyptian-hieroglyphs-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-egyptian-hieroglyphs-400.woff2") format("woff2");
+  unicode-range: U+13000-1342F, U+13430-1343F;
+}

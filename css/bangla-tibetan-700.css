@@ -1,0 +1,12 @@
+/* Bangla — tibetan — Bold
+   unicode-range: U+0F00-0FFF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-tibetan-700.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-tibetan-700.woff2") format("woff2");
+  unicode-range: U+0F00-0FFF;
+}

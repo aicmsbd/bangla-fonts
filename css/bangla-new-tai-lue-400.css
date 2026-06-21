@@ -1,0 +1,12 @@
+/* Bangla — new-tai-lue — Regular
+   unicode-range: U+1980-19DF, U+19DE-19FF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-new-tai-lue-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-new-tai-lue-400.woff2") format("woff2");
+  unicode-range: U+1980-19DF, U+19DE-19FF;
+}

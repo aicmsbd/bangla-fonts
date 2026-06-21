@@ -1,0 +1,12 @@
+/* Bangla — bopomofo — Light
+   unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-bopomofo-300.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-bopomofo-300.woff2") format("woff2");
+  unicode-range: U+02EA-02EB, U+3100-312F, U+31A0-31BF;
+}

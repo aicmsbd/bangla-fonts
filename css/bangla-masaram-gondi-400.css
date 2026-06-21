@@ -1,0 +1,12 @@
+/* Bangla — masaram-gondi — Regular
+   unicode-range: U+11D00-11D5F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-masaram-gondi-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-masaram-gondi-400.woff2") format("woff2");
+  unicode-range: U+11D00-11D5F;
+}

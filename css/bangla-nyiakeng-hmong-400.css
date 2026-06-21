@@ -1,0 +1,12 @@
+/* Bangla — nyiakeng-hmong — Regular
+   unicode-range: U+1E100-1E14F
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-nyiakeng-hmong-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-nyiakeng-hmong-400.woff2") format("woff2");
+  unicode-range: U+1E100-1E14F;
+}

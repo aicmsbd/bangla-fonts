@@ -1,0 +1,12 @@
+/* Bangla — vithkuqi — Bold
+   unicode-range: U+10570-105BF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-vithkuqi-700.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-vithkuqi-700.woff2") format("woff2");
+  unicode-range: U+10570-105BF;
+}

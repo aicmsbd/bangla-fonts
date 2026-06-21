@@ -1,0 +1,12 @@
+/* Bangla — thaana — Light
+   unicode-range: U+0780-07BF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-thaana-300.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-thaana-300.woff2") format("woff2");
+  unicode-range: U+0780-07BF;
+}

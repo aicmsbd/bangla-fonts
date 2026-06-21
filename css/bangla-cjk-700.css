@@ -1,0 +1,12 @@
+/* Bangla — cjk — Bold
+   unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-cjk-700.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-cjk-700.woff2") format("woff2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FF00-FFEF;
+}

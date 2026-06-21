@@ -1,0 +1,12 @@
+/* Bangla — telugu — Black
+   unicode-range: U+0C00-0C7F, U+200C, U+200D
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-telugu-900.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-telugu-900.woff2") format("woff2");
+  unicode-range: U+0C00-0C7F, U+200C, U+200D;
+}

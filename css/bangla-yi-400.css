@@ -1,0 +1,12 @@
+/* Bangla — yi — Regular
+   unicode-range: U+A000-A48F, U+A490-A4CF
+   CDN: https://cdn.jsdelivr.net/gh/aicmsbd/bangla-fonts@main/css/bangla-yi-400.css */
+
+@font-face {
+  font-family: "Bangla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/weights/Bangla-yi-400.woff2") format("woff2");
+  unicode-range: U+A000-A48F, U+A490-A4CF;
+}
