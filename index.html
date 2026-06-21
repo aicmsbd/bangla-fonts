@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>বাঙলা (Bangla) — All Weights</title>
+<link rel="stylesheet" href="bangla-weights.css">
+<style>
+:root{
+  --bg:#0d0f1a;--s:#151827;--bdr:#242742;--t:#e4e6f0;--m:#7b88a0;
+  --acc:#6c63ff;--red:#ff6b6b;--grn:#4caf89;--yel:#ffa726;--cya:#26c6da;--pur:#ab47bc;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Bangla",system-ui,sans-serif;background:var(--bg);color:var(--t);line-height:1.8;padding:2rem 1rem}
+.wrap{max-width:960px;margin:0 auto}
+
+header{text-align:center;padding:3rem 1rem 2rem;border-bottom:1px solid var(--bdr);margin-bottom:2.5rem}
+h1{font-size:clamp(2rem,5vw,3.5rem);background:linear-gradient(135deg,var(--acc),var(--red));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.4rem}
+.sub{color:var(--m);font-size:.95rem}
+
+/* Weight selector */
+.ctrl{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;
+       background:var(--s);border:1px solid var(--bdr);border-radius:10px;
+       padding:1rem 1.4rem;margin-bottom:2.5rem}
+.ctrl label{color:var(--m);font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.ctrl select{background:#0d0f1a;border:1px solid var(--bdr);border-radius:6px;color:var(--t);
+              padding:.35rem .7rem;font-family:"Bangla",sans-serif;font-size:.9rem;cursor:pointer}
+.ctrl select:focus{outline:2px solid var(--acc);border-color:transparent}
+.wt-label{font-size:2rem;font-weight:700;color:var(--acc)}
+
+/* Weight scale strip */
+.scale{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.scale-chip{background:var(--s);border:1px solid var(--bdr);border-radius:8px;
+             padding:.6rem 1rem;flex:1;min-width:80px;text-align:center;cursor:pointer;
+             transition:border-color .2s,background .2s}
+.scale-chip:hover,.scale-chip.active{background:#1e2135;border-color:var(--acc)}
+.scale-chip .wnum{font-size:.7rem;color:var(--m);letter-spacing:.05em}
+.scale-chip .wsample{font-size:1.1rem;line-height:1.4}
+
+h2{font-size:1.2rem;margin:0 0 1rem;color:var(--t)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.3rem;margin-bottom:2.5rem}
+.card{background:var(--s);border:1px solid var(--bdr);border-radius:12px;padding:1.5rem;
+       transition:border-color .2s}
+.card:hover{border-color:var(--acc)}
+.ch{display:flex;align-items:center;gap:.6rem;margin-bottom:.8rem}
+[dir=rtl] .ch{flex-direction:row-reverse}
+.b{padding:.15rem .5rem;border-radius:5px;font-size:.68rem;font-weight:700;letter-spacing:.07em;
+    text-transform:uppercase;color:#fff}
+.b.latin{background:var(--acc)}.b.bengali{background:var(--red)}
+.b.arabic{background:var(--yel);color:#111}.b.cyrillic{background:var(--cya);color:#111}
+.b.cjk{background:var(--pur)}
+.lbl{font-size:.78rem;color:var(--m)}
+.s{font-size:1.4rem;line-height:2;margin:.1rem 0}
+.xl{font-size:1.9rem}
+.pills{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.6rem}
+.pill{background:#1e2135;border:1px solid var(--bdr);border-radius:7px;padding:.18rem .55rem;font-size:1.1rem}
+
+table{width:100%;border-collapse:collapse;margin-bottom:2.5rem;font-size:.85rem}
+th{text-align:left;padding:.65rem 1rem;background:var(--s);border-bottom:2px solid var(--bdr);
+    color:var(--m);text-transform:uppercase;letter-spacing:.06em;font-size:.68rem;font-weight:700}
+td{padding:.55rem 1rem;border-bottom:1px solid var(--bdr);color:var(--t)}
+tr:hover td{background:#131524}
+.num{text-align:right;font-family:"Courier New",monospace}
+tfoot td{border-top:2px solid var(--bdr);border-bottom:none;font-weight:700;color:var(--grn)}
+code{font-family:"Courier New",monospace;font-size:.82em;color:var(--acc)}
+footer{text-align:center;padding:2rem;color:var(--m);font-size:.8rem;border-top:1px solid var(--bdr)}
+footer p+p{margin-top:.35rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>বাঙলা &mdash; Bangla</h1>
+  <p class="sub">All Weights &bull; Thin–Black &bull; 5 Scripts &bull; Zero-CDN</p>
+</header>
+
+<!-- Weight selector -->
+<div class="ctrl">
+  <label>Font Weight</label>
+  <select id="wsel" onchange="setWeight(this.value)">
+    <option value="100">Thin (100)</option><option value="200">ExtraLight (200)</option><option value="300">Light (300)</option><option value="400"selected>Regular (400)</option><option value="500">Medium (500)</option><option value="600">SemiBold (600)</option><option value="700">Bold (700)</option><option value="800">ExtraBold (800)</option><option value="900">Black (900)</option>
+  </select>
+  <span class="wt-label" id="wlabel">Regular 400</span>
+</div>
+
+<!-- Weight scale -->
+<h2>Weight Scale</h2>
+<div class="scale" id="wscale">
+  <div class="scale-chip" onclick="setWeight(100)" data-w="100"><div class="wnum">Thin<br>100</div><div class="wsample" style="font-weight:100">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(200)" data-w="200"><div class="wnum">ExtraLight<br>200</div><div class="wsample" style="font-weight:200">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(300)" data-w="300"><div class="wnum">Light<br>300</div><div class="wsample" style="font-weight:300">Aa বাংলা</div></div><div class="scale-chipactive" onclick="setWeight(400)" data-w="400"><div class="wnum">Regular<br>400</div><div class="wsample" style="font-weight:400">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(500)" data-w="500"><div class="wnum">Medium<br>500</div><div class="wsample" style="font-weight:500">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(600)" data-w="600"><div class="wnum">SemiBold<br>600</div><div class="wsample" style="font-weight:600">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(700)" data-w="700"><div class="wnum">Bold<br>700</div><div class="wsample" style="font-weight:700">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(800)" data-w="800"><div class="wnum">ExtraBold<br>800</div><div class="wsample" style="font-weight:800">Aa বাংলা</div></div><div class="scale-chip" onclick="setWeight(900)" data-w="900"><div class="wnum">Black<br>900</div><div class="wsample" style="font-weight:900">Aa বাংলা</div></div>
+</div>
+
+<!-- Script samples -->
+<h2>Script Samples</h2>
+<div class="grid" id="samples">
+
+  <div class="card">
+    <div class="ch"><span class="b bengali">Bengali</span><span class="lbl">বাংলা · U+0980–09FF</span></div>
+    <p class="s xl sample">যুক্তাক্ষর পরীক্ষা</p>
+    <p class="s sample">কক্সবাজার · স্বাস্থ্য</p>
+    <p class="s sample">বাংলাদেশ — প্রকৃতির রূপ অপরূপ।</p>
+    <div class="pills">
+      <span class="pill">ক্ষ</span><span class="pill">ত্র</span><span class="pill">জ্ঞ</span>
+      <span class="pill">স্ব</span><span class="pill">ন্ত</span><span class="pill">ষ্ঠ</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="ch"><span class="b latin">Latin</span><span class="lbl">English · U+0000–00FF</span></div>
+    <p class="s xl sample">The Quick Brown Fox</p>
+    <p class="s sample">jumps over the lazy dog.</p>
+    <p class="s sample">Sphinx of black quartz — judge my vow!</p>
+  </div>
+
+  <div class="card">
+    <div class="ch"><span class="b cjk">CJK</span><span class="lbl">中文 / 日本語 · U+4E00–9FFF</span></div>
+    <p class="s xl sample">你好，世界！</p>
+    <p class="s sample">中国有着悠久的历史与文化。</p>
+    <p class="s sample">日本語：桜の花が咲いています。</p>
+  </div>
+
+  <div class="card" dir="rtl">
+    <div class="ch"><span class="b arabic">Arabic</span><span class="lbl">العربية · U+0600–06FF</span></div>
+    <p class="s xl sample">مرحباً بالعالم</p>
+    <p class="s sample">اللغة العربية لغة جميلة ذات تاريخ عريق.</p>
+  </div>
+
+  <div class="card">
+    <div class="ch"><span class="b cyrillic">Cyrillic</span><span class="lbl">Русский · U+0400–04FF</span></div>
+    <p class="s xl sample">Привет, мир!</p>
+    <p class="s sample">Россия — великая страна с богатой историей.</p>
+  </div>
+
+</div>
+
+<!-- Stats -->
+<h2>Generated WOFF2 Files</h2>
+<table>
+  <thead><tr><th>Script</th><th>Weights</th><th style="text-align:right">Total Size</th><th>Coverage</th></tr></thead>
+  <tbody><tr><td><span class='b latin'>LATIN</span></td><td>9 weights</td><td class='num'>160 KB</td><td>Latin + extended</td></tr>
+<tr><td><span class='b bengali'>BENGALI</span></td><td>9 weights</td><td class='num'>352 KB</td><td>Bengali + conjunct control</td></tr>
+<tr><td><span class='b arabic'>ARABIC</span></td><td>9 weights</td><td class='num'>421 KB</td><td>Arabic + Presentation Forms</td></tr>
+<tr><td><span class='b cyrillic'>CYRILLIC</span></td><td>9 weights</td><td class='num'>198 KB</td><td>Cyrillic + Extended</td></tr>
+<tr><td><span class='b cjk'>CJK</span></td><td>6 weights</td><td class='num'>40573 KB</td><td>CJK Ideographs + Kana</td></tr>
+</tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Grand total</td>
+      <td class="num">41707 KB</td>
+      <td>5 scripts × all weights</td>
+    </tr>
+  </tfoot>
+</table>
+
+<footer>
+  <p>বাঙলা (Bangla) — All Weights Edition &bull; Zero-CDN &bull; Chromium pak-ready</p>
+  <p>Noto fonts © Google (OFL-1.1 / Apache 2.0) &bull; Bangla branding © 2026</p>
+</footer>
+
+</div>
+
+<script>
+const WN = {100:"Thin",200:"ExtraLight",300:"Light",400:"Regular",500:"Medium",600:"SemiBold",700:"Bold",800:"ExtraBold",900:"Black"};
+
+function setWeight(w) {
+  w = parseInt(w);
+  document.documentElement.style.setProperty('--cur-weight', w);
+  document.querySelectorAll('.sample').forEach(el => el.style.fontWeight = w);
+  document.querySelector('#wsel').value = w;
+  document.querySelector('#wlabel').textContent = (WN[w]||'') + ' ' + w;
+  document.querySelectorAll('.scale-chip').forEach(c => {
+    c.classList.toggle('active', parseInt(c.dataset.w) === w);
+  });
+}
+
+// Apply initial weight
+setWeight(400);
+</script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bangla Font — Universal Stress Test</title>
+<link rel="stylesheet" href="bangla-weights.css">
+<style>
+:root {
+  --bg: #f4f4f9; --card: #fff; --bdr: #e8e8f0;
+  --accent: #5c6bc0; --pass: #2e7d32; --fail: #c62828; --warn: #e65100;
+  --text: #212121; --muted: #757575; --tag-bg: #ede7f6;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Bangla', system-ui, sans-serif; background: var(--bg); color: var(--text); padding: 24px 16px; line-height: 1.7; }
+h1 { font-size: 1.9rem; text-align: center; margin-bottom: .3rem; color: var(--accent); }
+.subtitle { text-align: center; color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+
+.card { background: var(--card); border: 1px solid var(--bdr); border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.card h2 { font-size: 1.1rem; margin-bottom: 4px; color: var(--accent); }
+.card .desc { font-size: .78rem; color: var(--muted); margin-bottom: 16px; font-style: italic; }
+
+/* Weight rows */
+.wrow { display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid var(--bdr); padding: 8px 0; }
+.wrow:last-child { border-bottom: none; }
+.wlabel { font-family: 'Courier New', monospace; font-size: .72rem; color: var(--muted); min-width: 90px; flex-shrink: 0; }
+.sample { font-size: 22px; flex: 1; line-height: 1.8; }
+
+/* Weight ramp */
+.ramp { display: flex; flex-direction: column; gap: 6px; }
+.ramp-row { display: flex; align-items: center; gap: 12px; }
+.ramp-bar { height: 28px; background: var(--accent); border-radius: 4px; }
+.ramp-text { font-size: 20px; }
+
+/* Mixed baseline test */
+.baseline-row { font-size: 26px; line-height: 2.2; letter-spacing: .01em; }
+
+/* RTL */
+.rtl { direction: rtl; text-align: right; }
+.rtl .wlabel { text-align: left; direction: ltr; }
+
+/* Conjunct grid */
+.conj-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.conj { background: var(--tag-bg); border: 1px solid #c5cae9; border-radius: 6px; padding: 4px 10px; font-size: 1.6rem; line-height: 1.6; }
+.conj-label { font-size: .65rem; color: var(--muted); display: block; font-family: monospace; text-align: center; }
+
+/* Verification panel */
+#verify-panel { background: #1a1a2e; color: #e0e0e0; border-radius: 12px; padding: 24px; font-family: 'Courier New', monospace; font-size: .82rem; line-height: 1.9; }
+#verify-panel h2 { color: #7986cb; font-family: sans-serif; margin-bottom: 12px; }
+.vrow { display: flex; gap: 12px; align-items: center; border-bottom: 1px solid #2a2a4e; padding: 4px 0; }
+.vrow:last-child { border-bottom: none; }
+.vstatus { font-weight: bold; min-width: 60px; }
+.ok  { color: #66bb6a; } .err { color: #ef5350; } .warn { color: #ffa726; }
+.vname { color: #ce93d8; } .vdetail { color: #90a4ae; font-size: .75rem; }
+
+/* Score */
+#score-box { text-align: center; padding: 20px; margin-bottom: 20px; border-radius: 12px; border: 2px solid var(--bdr); }
+#score-num { font-size: 4rem; font-weight: 900; }
+#score-label { font-size: 1rem; color: var(--muted); }
+
+/* Special char table */
+.char-table { width: 100%; border-collapse: collapse; }
+.char-table td { border: 1px solid var(--bdr); padding: 8px 12px; font-size: 1.3rem; text-align: center; }
+.char-table th { background: var(--tag-bg); font-size: .75rem; color: var(--muted); border: 1px solid var(--bdr); padding: 6px; }
+
+button { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 10px 24px; font-size: .9rem; cursor: pointer; font-family: inherit; }
+button:hover { background: #3949ab; }
+</style>
+</head>
+<body>
+
+<h1>🌐 Universal Font Stress Test</h1>
+<p class="subtitle">Bangla Font System — Visual &amp; Engine Verification</p>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 1. WEIGHT RAMP (Visual Weight Scale) -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>১. Weight Ramp — Thin (100) → Black (900)</h2>
+  <p class="desc">প্রতিটি weight-এ একই বাংলা টেক্সট দেখানো হচ্ছে। চোখ দিয়ে stroke thickness পার্থক্য স্পষ্ট দেখা যাচ্ছে কিনা পরীক্ষা করুন।</p>
+  <div class="ramp">
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">Thin 100</span><span class="ramp-text" style="font-weight:100">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">ExtraLight 200</span><span class="ramp-text" style="font-weight:200">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">Light 300</span><span class="ramp-text" style="font-weight:300">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">Regular 400</span><span class="ramp-text" style="font-weight:400">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">Medium 500</span><span class="ramp-text" style="font-weight:500">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">SemiBold 600</span><span class="ramp-text" style="font-weight:600">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">Bold 700</span><span class="ramp-text" style="font-weight:700">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">ExtraBold 800</span><span class="ramp-text" style="font-weight:800">বাংলা — Bangla Font System</span></div>
+    <div class="ramp-row"><span style="width:90px;font-size:.72rem;color:var(--muted);font-family:monospace">Black 900</span><span class="ramp-text" style="font-weight:900">বাংলা — Bangla Font System</span></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 2. BENGALI CONJUNCT SHAPING (GSUB Test) -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>২. বাংলা যুক্তাক্ষর (Bengali Conjuncts / GSUB)</h2>
+  <p class="desc">নিচের যুক্তাক্ষরগুলো ভেঙে আলাদা অক্ষর হিসেবে দেখালে GSUB সমস্যা আছে। প্রতিটি সংযুক্ত অক্ষর একটি একক আকারে রেন্ডার হওয়া উচিত।</p>
+
+  <div class="conj-grid">
+    <div class="conj">ক্ষ<span class="conj-label">k+kha (akhn)</span></div>
+    <div class="conj">জ্ঞ<span class="conj-label">ja+gna (akhn)</span></div>
+    <div class="conj">ঙ্ক<span class="conj-label">nga+ka</span></div>
+    <div class="conj">ঙ্ক্ষ<span class="conj-label">nga+ka+kha</span></div>
+    <div class="conj">ষ্ঠ<span class="conj-label">ssa+tha</span></div>
+    <div class="conj">ষ্ক<span class="conj-label">ssa+ka</span></div>
+    <div class="conj">ষ্প<span class="conj-label">ssa+pa</span></div>
+    <div class="conj">ষ্ট<span class="conj-label">ssa+ta</span></div>
+    <div class="conj">ষ্ণ<span class="conj-label">ssa+na</span></div>
+    <div class="conj">ন্ট<span class="conj-label">na+ta</span></div>
+    <div class="conj">ন্ড<span class="conj-label">na+da</span></div>
+    <div class="conj">ণ্ড<span class="conj-label">nna+da</span></div>
+    <div class="conj">ণ্ঠ<span class="conj-label">nna+tha</span></div>
+    <div class="conj">ক্ত<span class="conj-label">ka+ta (half)</span></div>
+    <div class="conj">স্ত<span class="conj-label">sa+ta (half)</span></div>
+    <div class="conj">স্থ<span class="conj-label">sa+tha</span></div>
+    <div class="conj">স্ব<span class="conj-label">sa+ba (half)</span></div>
+    <div class="conj">স্ম<span class="conj-label">sa+ma</span></div>
+    <div class="conj">ক্র<span class="conj-label">ka+ra (blwf)</span></div>
+    <div class="conj">গ্র<span class="conj-label">ga+ra (blwf)</span></div>
+    <div class="conj">প্র<span class="conj-label">pa+ra (blwf)</span></div>
+    <div class="conj">ব্র<span class="conj-label">ba+ra (blwf)</span></div>
+    <div class="conj">ত্র<span class="conj-label">ta+ra (blwf)</span></div>
+    <div class="conj">দ্র<span class="conj-label">da+ra (blwf)</span></div>
+    <div class="conj">ন্ত<span class="conj-label">na+ta (half)</span></div>
+    <div class="conj">ন্দ<span class="conj-label">na+da</span></div>
+    <div class="conj">ন্ধ<span class="conj-label">na+dha</span></div>
+    <div class="conj">হ্ম<span class="conj-label">ha+ma</span></div>
+    <div class="conj">শ্চ<span class="conj-label">sha+ca</span></div>
+    <div class="conj">র্ক<span class="conj-label">ra+ka (rphf)</span></div>
+    <div class="conj">র্ব<span class="conj-label">ra+ba (rphf)</span></div>
+    <div class="conj">র্ণ<span class="conj-label">ra+na (rphf)</span></div>
+    <div class="conj">র্ম<span class="conj-label">ra+ma (rphf)</span></div>
+    <div class="conj">র‍্যাব<span class="conj-label">ra+ZWJ+ya (ZWJ)</span></div>
+    <div class="conj">র্‍য<span class="conj-label">ra+ZWNJ+ya</span></div>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <div class="wrow"><div class="wlabel">W:300 Light</div><div class="sample" style="font-weight:300">বিজ্ঞানীদের আকাঙ্ক্ষা হলো সূক্ষ্ম প্রযুক্তির সাহায্যে কিংকর্তব্যবিমূঢ় সমস্যার সমাধান করা।</div></div>
+    <div class="wrow"><div class="wlabel">W:400 Regular</div><div class="sample" style="font-weight:400">বিজ্ঞানীদের আকাঙ্ক্ষা হলো সূক্ষ্ম প্রযুক্তির সাহায্যে কিংকর্তব্যবিমূঢ় সমস্যার সমাধান করা।</div></div>
+    <div class="wrow"><div class="wlabel">W:500 Medium</div><div class="sample" style="font-weight:500">বিজ্ঞানীদের আকাঙ্ক্ষা হলো সূক্ষ্ম প্রযুক্তির সাহায্যে কিংকর্তব্যবিমূঢ় সমস্যার সমাধান করা।</div></div>
+    <div class="wrow"><div class="wlabel">W:700 Bold</div><div class="sample" style="font-weight:700">বিজ্ঞানীদের আকাঙ্ক্ষা হলো সূক্ষ্ম প্রযুক্তির সাহায্যে কিংকর্তব্যবিমূঢ় সমস্যার সমাধান করা।</div></div>
+    <div class="wrow"><div class="wlabel">W:900 Black</div><div class="sample" style="font-weight:900">বিজ্ঞানীদের আকাঙ্ক্ষা হলো সূক্ষ্ম প্রযুক্তির সাহায্যে কিংকর্তব্যবিমূঢ় সমস্যার সমাধান করা।</div></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 3. ARABIC RTL + HARAKAT -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>৩. আরবি (Arabic) — RTL + হরকত (Diacritics) + লিগেচার</h2>
+  <p class="desc">লেখা ডান-থেকে-বামে যাচ্ছে কিনা, হরকত (যবর/যের/পেশ) অক্ষরের সঠিক জায়গায় বসছে কিনা, এবং ligature (যেমন: لا) ঠিকমতো জোড়া লাগছে কিনা দেখুন।</p>
+  <div class="rtl">
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:100</div><div class="sample" style="font-weight:100">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:200</div><div class="sample" style="font-weight:200">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:300</div><div class="sample" style="font-weight:300">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:400</div><div class="sample" style="font-weight:400">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:500</div><div class="sample" style="font-weight:500">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:600</div><div class="sample" style="font-weight:600">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:700</div><div class="sample" style="font-weight:700">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:800</div><div class="sample" style="font-weight:800">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+    <div class="wrow"><div class="wlabel" style="direction:ltr">W:900</div><div class="sample" style="font-weight:900">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div></div>
+  </div>
+  <div style="margin-top:12px;">
+    <p style="font-size:.8rem;color:var(--muted)">Ligature test:</p>
+    <p style="font-size:2rem;direction:rtl;margin-top:4px">لا — لله — مكتبة — الرحمن — إنسان</p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 4. CJK BASELINE ALIGNMENT -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>৪. CJK (চীনা / জাপানি) — Density &amp; Baseline</h2>
+  <p class="desc">CJK অক্ষর এবং Latin অক্ষর একই লাইনে পাশাপাশি লিখলে baseline সমান থাকছে কিনা দেখুন।</p>
+  <div class="wrow"><div class="wlabel">W:100</div><div class="sample" style="font-weight:100">漢字 Kanji — ひらがな Hiragana</div></div>
+  <div class="wrow"><div class="wlabel">W:300</div><div class="sample" style="font-weight:300">漢字 Kanji — ひらがな Hiragana</div></div>
+  <div class="wrow"><div class="wlabel">W:400</div><div class="sample" style="font-weight:400">漢字 Kanji — ひらがな Hiragana — 중국어 Chinese</div></div>
+  <div class="wrow"><div class="wlabel">W:500</div><div class="sample" style="font-weight:500">漢字 Kanji — ひらがな Hiragana</div></div>
+  <div class="wrow"><div class="wlabel">W:700</div><div class="sample" style="font-weight:700">漢字 Kanji — ひらがな Hiragana — 日本語フォント</div></div>
+  <div class="wrow"><div class="wlabel">W:900</div><div class="sample" style="font-weight:900">中国有着悠久的历史与文化。 漢字テスト。</div></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 5. LATIN + CYRILLIC -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>৫. Latin &amp; Cyrillic — Kerning &amp; Special Chars</h2>
+  <p class="desc">Letter-spacing, kerning pair (AV, WA, To) এবং special character গুলো সঠিকভাবে রেন্ডার হচ্ছে কিনা দেখুন।</p>
+  <div class="wrow"><div class="wlabel">W:100</div><div class="sample" style="font-weight:100">The quick brown fox jumps over the lazy dog.</div></div>
+  <div class="wrow"><div class="wlabel">W:300</div><div class="sample" style="font-weight:300">AVWT — AV Ty Wa — Kerning Pairs 0123456789</div></div>
+  <div class="wrow"><div class="wlabel">W:400</div><div class="sample" style="font-weight:400">Sphinx of black quartz — judge my vow! @#$%&amp; €£¥ ©®™</div></div>
+  <div class="wrow"><div class="wlabel">W:700</div><div class="sample" style="font-weight:700">Bold: fi fl ff ffi ffl — Ligatures test</div></div>
+  <div class="wrow"><div class="wlabel">W:900</div><div class="sample" style="font-weight:900">Black Weight — HAMBURGEFONTS 0123456789</div></div>
+  <div style="height:8px"></div>
+  <div class="wrow"><div class="wlabel">W:300</div><div class="sample" style="font-weight:300">Съешь же ещё этих мягких французских булок, да выпей чаю.</div></div>
+  <div class="wrow"><div class="wlabel">W:400</div><div class="sample" style="font-weight:400">Россия — великая страна с богатой историей.</div></div>
+  <div class="wrow"><div class="wlabel">W:700</div><div class="sample" style="font-weight:700">Все люди рождаются свободными и равными в правах.</div></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 6. MIXED SCRIPT — BASELINE ALIGNMENT TEST -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>৬. মিশ্র লিপি — Baseline Alignment Test</h2>
+  <p class="desc">একটি লাইনে বাংলা + ইংরেজি + আরবি একসাথে লিখলে কোনো script উপরে বা নিচে চলে যাচ্ছে কিনা দেখুন।</p>
+  <div class="wrow"><div class="wlabel">W:400</div>
+    <div class="sample baseline-row" style="font-weight:400">বাংলা — English — العربية — 漢字</div>
+  </div>
+  <div class="wrow"><div class="wlabel">W:700</div>
+    <div class="sample baseline-row" style="font-weight:700">স্বাস্থ্য (Swasthya) — بِسْمِ — 中国 (China)</div>
+  </div>
+  <div class="wrow"><div class="wlabel">W:900</div>
+    <div class="sample baseline-row" style="font-weight:900">কক্সবাজার Cox's Bazar كوكس بازار 考克斯巴扎</div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 7. SPECIAL CHARACTERS -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div class="card">
+  <h2>৭. বিশেষ ক্যারেক্টার (Special Characters)</h2>
+  <table class="char-table">
+    <tr>
+      <th>বাংলা সংখ্যা</th><th>Currency</th><th>Punctuation</th><th>Arrows</th><th>Math</th>
+    </tr>
+    <tr>
+      <td>০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯</td>
+      <td>৳ € £ $ ¥ ¢</td>
+      <td>। ॥ ? ! … — – ''</td>
+      <td>↑ ↓ ← → ⟹</td>
+      <td>½ ¼ ¾ ² ³ ° ± ×</td>
+    </tr>
+    <tr>
+      <td style="font-weight:700">০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯</td>
+      <td style="font-weight:700">৳ € £ $ ¥ ¢</td>
+      <td style="font-weight:700">। ॥ ? ! … — – ''</td>
+      <td style="font-weight:700">↑ ↓ ← → ⟹</td>
+      <td style="font-weight:700">½ ¼ ¾ ² ³ ° ± ×</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- 8. AUTOMATED BROWSER ENGINE CHECK -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div id="verify-panel">
+  <h2>🔬 Browser Engine Verification — CSS Font Loading API</h2>
+  <div id="verify-loading" style="color:#ffa726">⏳ ফন্ট লোড হচ্ছে, অপেক্ষা করুন…</div>
+  <div id="verify-results" style="display:none">
+    <div id="score-area" style="text-align:center;padding:16px 0;border-bottom:1px solid #2a2a4e;margin-bottom:12px">
+      <span id="score-num" style="font-size:3rem;font-weight:900;color:#66bb6a">—</span>
+      <div style="font-size:.85rem;color:#90a4ae;font-family:sans-serif;margin-top:4px">fonts loaded successfully</div>
+    </div>
+    <div id="vrows"></div>
+  </div>
+  <div id="verify-error" style="display:none;color:#ef5350">❌ CSS Font Loading API not supported in this browser.</div>
+
+  <div style="margin-top:16px;border-top:1px solid #2a2a4e;padding-top:12px">
+    <div style="color:#90a4ae;font-size:.78rem;margin-bottom:8px">Network filter hint — Chrome DevTools → Network tab → Filter: Font</div>
+    <code style="color:#ce93d8">Expected: only the scripts used on this page should load (unicode-range filtering)</code>
+  </div>
+
+  <div style="margin-top:12px">
+    <button onclick="runVerify()">🔄 Re-run Verification</button>
+    <button onclick="checkRenderedFonts()" style="margin-left:10px;background:#37474f">📊 Check Rendered Fonts (DevTools)</button>
+  </div>
+</div>
+
+<script>
+const EXPECTED_FAMILY = 'Bangla';
+const WEIGHTS = [100,200,300,400,500,600,700,800,900];
+const SCRIPTS  = ['latin','bengali','arabic','cyrillic','cjk'];
+
+function runVerify() {
+  const loadingEl = document.getElementById('verify-loading');
+  const resultsEl = document.getElementById('verify-results');
+  const errorEl   = document.getElementById('verify-error');
+  const vrows     = document.getElementById('vrows');
+
+  loadingEl.style.display = 'block';
+  resultsEl.style.display = 'none';
+  vrows.innerHTML = '';
+
+  if (!document.fonts || !document.fonts.ready) {
+    loadingEl.style.display = 'none';
+    errorEl.style.display   = 'block';
+    return;
+  }
+
+  document.fonts.ready.then(() => {
+    loadingEl.style.display = 'none';
+    resultsEl.style.display = 'block';
+
+    const rows  = [];
+    let okCount = 0;
+
+    WEIGHTS.forEach(w => {
+      const loaded = document.fonts.check(`${w} 16px "${EXPECTED_FAMILY}"`);
+      const status = loaded ? '✓ LOADED' : '✗ MISSING';
+      const cls    = loaded ? 'ok' : 'err';
+      if (loaded) okCount++;
+      rows.push(`<div class="vrow">
+        <span class="vstatus ${cls}">${status}</span>
+        <span class="vname">"${EXPECTED_FAMILY}"</span>
+        <span class="vdetail">font-weight: ${w} — ${getWeightName(w)}</span>
+      </div>`);
+    });
+
+    // Check each face in FontFaceSet
+    const allFaces = [];
+    document.fonts.forEach(face => {
+      if (face.family.includes(EXPECTED_FAMILY) || face.family === EXPECTED_FAMILY) {
+        allFaces.push(face);
+      }
+    });
+
+    rows.push(`<div class="vrow" style="margin-top:12px;border-top:1px solid #2a2a4e;padding-top:8px">
+      <span class="vstatus" style="color:#7986cb">ℹ INFO</span>
+      <span class="vdetail">Total "${EXPECTED_FAMILY}" @font-face entries in CSS: <strong style="color:#ce93d8">${allFaces.length}</strong></span>
+    </div>`);
+
+    allFaces.forEach(face => {
+      const st  = face.status === 'loaded' ? '✓' : (face.status === 'loading' ? '⏳' : '✗');
+      const cls = face.status === 'loaded' ? 'ok' : (face.status === 'loading' ? 'warn' : 'err');
+      rows.push(`<div class="vrow">
+        <span class="vstatus ${cls}">${st} ${face.status.toUpperCase()}</span>
+        <span class="vname">${face.family}</span>
+        <span class="vdetail">weight:${face.weight} style:${face.style}</span>
+      </div>`);
+    });
+
+    vrows.innerHTML  = rows.join('');
+    const scoreEl    = document.getElementById('score-num');
+    scoreEl.textContent = `${okCount}/${WEIGHTS.length}`;
+    scoreEl.style.color = okCount === WEIGHTS.length ? '#66bb6a' : (okCount > WEIGHTS.length/2 ? '#ffa726' : '#ef5350');
+  });
+}
+
+function getWeightName(w) {
+  const names = {100:'Thin',200:'ExtraLight',300:'Light',400:'Regular',500:'Medium',600:'SemiBold',700:'Bold',800:'ExtraBold',900:'Black'};
+  return names[w] || '';
+}
+
+function checkRenderedFonts() {
+  const msg = [
+    '📋 DevTools Instructions:',
+    '1. F12 → Elements → pick any text element',
+    '2. Computed tab → scroll to bottom → "Rendered Fonts"',
+    '3. Should show: "Bangla" (not Arial / Times New Roman)',
+    '',
+    '4. Network tab → reload → Filter: Font',
+    '5. Should load ONLY the scripts present on this page',
+    '   (unicode-range lazy loading check)'
+  ].join('\n');
+  alert(msg);
+}
+
+// Auto-run on load
+window.addEventListener('load', runVerify);
+</script>
+</body>
+</html>
